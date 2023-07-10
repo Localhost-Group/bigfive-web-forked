@@ -8,9 +8,12 @@
       >
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
-            SAY<br>HALLO
+            <a :href="whatsAppLink" target="_blank">
+              <button class="button">预约咨询 Book a Consultation</button>
+            </a><br>
+            <a href="https://glows.my" target="_blank"><strong>WISDOER GLOBAL</strong></a>
           </v-col>
-          <v-col
+          <!-- <v-col
             cols="12"
             class="pt-0"
           >
@@ -59,15 +62,15 @@
             >
               <v-icon large>{{ mdiLinkedin }}</v-icon>
             </a>
-          </v-col>
+          </v-col> -->
           <v-col
             cols="12"
             class="footer-about"
           >
-            Rubynor<br>
-            Bedriftsveien 64<br>
-            3735 Skien, Norway<br><br>
-            bigfive-test@rubynor.com<br>
+            No. 18, 1st Floor<br>
+            Lorong Tunku Abdul Rahman 8A<br>
+            96000 Sibu, Sarawak, Malaysia<br><br>
+            <a href="mailto:wg@glows.my">wg@glows.my</a><br>
           </v-col>
           <v-col
             class="footer-text"
@@ -77,7 +80,7 @@
           </v-col>
         </v-row>
       </v-col>
-      <v-col cols="auto">
+      <!-- <v-col cols="auto">
         <h3 class="mb-2">
           Having questions about or problems with the site?
         </h3>
@@ -86,7 +89,7 @@
         >
           <a @click="logClick('FAQ')">FAQ</a>
         </nuxt-link>.
-      </v-col>
+      </v-col> -->
     </v-row>
   </v-footer>
 </template>
@@ -139,4 +142,30 @@ export default {
   margin-right: auto;
   margin-left: auto;
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 </style>

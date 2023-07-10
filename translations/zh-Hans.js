@@ -16,7 +16,7 @@ export default {
       title: '拿自己和别人比较',
       text1: '拿自己和伴侣、同事、朋友或家人进行比较',
       text2: '了解您与五个域中的其他人有何不同：',
-      action: '看到它在行动现场'
+      action: '范例'
     },
     share: '与朋友分享，了解您的兼容性',
     cards: {
@@ -63,7 +63,7 @@ export default {
     privacy: '隐私',
     about: '关于我们',
     see_results: '查看您的结果',
-    compare_with: '与其他公司比较'
+    compare_with: '与其他人比较'
   },
   facets: {
     openness_to_experience: {
