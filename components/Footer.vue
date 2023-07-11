@@ -11,7 +11,7 @@
             <a :href="whatsAppLink" target="_blank">
               <button class="button">预约咨询 Book a Consultation</button>
             </a><br><br>
-            <h3><a href="https://glows.my" target="_blank">WISDOER GLOBAL</a></h3>
+            <h5><a href="https://glows.my" target="_blank">WISDOER GLOBAL</a></h5>
           </v-col>
 
           <!-- <v-col
@@ -149,7 +149,7 @@ export default {
 .button {
   display: inline-block;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 16px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
