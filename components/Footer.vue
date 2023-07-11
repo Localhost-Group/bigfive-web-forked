@@ -13,6 +13,7 @@
             </a><br>
             <a href="https://glows.my" target="_blank"><strong>WISDOER GLOBAL</strong></a>
           </v-col>
+
           <!-- <v-col
             cols="12"
             class="pt-0"
@@ -80,6 +81,7 @@
           </v-col>
         </v-row>
       </v-col>
+
       <!-- <v-col cols="auto">
         <h3 class="mb-2">
           Having questions about or problems with the site?
@@ -90,6 +92,7 @@
           <a @click="logClick('FAQ')">FAQ</a>
         </nuxt-link>.
       </v-col> -->
+      
     </v-row>
   </v-footer>
 </template>
