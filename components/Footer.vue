@@ -9,61 +9,11 @@
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
             <a :href="whatsAppLink" target="_blank">
-              <button class="button">预约咨询 Book a Consultation</button>
+              <button class="button"><span>预约咨询</span><br><span>Book a Consultation</span></button>
             </a><br><br>
-            <h5><a href="https://glows.my" target="_blank">WISDOER GLOBAL</a></h5>
+            <h5><a href="https://glows.my" target="_blank" style="color: black; font-size: 1.5rem;">WISDOER GLOBAL</a></h5>
           </v-col>
 
-          <!-- <v-col
-            cols="12"
-            class="pt-0"
-          >
-            <a
-              href="https://www.facebook.com/rubynorno/"
-              aria-label="Gå til facebook"
-            >
-              <v-icon large>{{ mdiFacebook }}</v-icon>
-            </a>
-
-            <v-divider
-              inset
-              vertical
-              class="mx-1"
-            />
-
-            <a
-              href="https://github.com/rubynor"
-              aria-label="Gå til github"
-            >
-              <v-icon large>{{ mdiGithub }}</v-icon>
-            </a>
-
-            <v-divider
-              inset
-              vertical
-              class="mx-1"
-            />
-
-            <a
-              href="https://twitter.com/rubynor"
-              aria-label="Gå til twitter"
-            >
-              <v-icon large>{{ mdiTwitter }}</v-icon>
-            </a>
-
-            <v-divider
-              inset
-              vertical
-              class="mx-1"
-            />
-
-            <a
-              href="https://no.linkedin.com/company/rubynor-as"
-              aria-label="Gå til linkedIn"
-            >
-              <v-icon large>{{ mdiLinkedin }}</v-icon>
-            </a>
-          </v-col> -->
           <v-col
             cols="12"
             class="footer-about"
@@ -81,18 +31,6 @@
           </v-col>
         </v-row>
       </v-col>
-
-      <!-- <v-col cols="auto">
-        <h3 class="mb-2">
-          Having questions about or problems with the site?
-        </h3>
-        Please read the <nuxt-link
-          :to="localePath('faq')"
-        >
-          <a @click="logClick('FAQ')">FAQ</a>
-        </nuxt-link>.
-      </v-col> -->
-      
     </v-row>
   </v-footer>
 </template>
@@ -158,7 +96,8 @@ export default {
   background-color: #4CAF50;
   border: none;
   border-radius: 15px;
-  box-shadow: 0 5px #999;
+  box-shadow: none;
+  transform: none;
 }
 
 .button:hover {
@@ -167,8 +106,8 @@ export default {
 
 .button:active {
   background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  box-shadow: none;
+  transform: none;
 }
 
 </style>
