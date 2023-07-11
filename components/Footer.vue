@@ -77,7 +77,7 @@
             class="footer-text"
             cols="12"
           >
-            © {{ new Date().getFullYear() }} — Rubynor - all rights reserved.
+            © {{ new Date().getFullYear() }} — Wisdoer Global - all rights reserved.
           </v-col>
         </v-row>
       </v-col>
