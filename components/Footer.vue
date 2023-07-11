@@ -9,9 +9,9 @@
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
             <a :href="whatsAppLink" target="_blank">
-              <button class="button"><span>预约咨询</span><br><span>Book a Consultation</span></button>
+              <button class="button"><span style="line-height: 1.2;">预约咨询</span><span style="line-height: 1.2;">Book a Consultation</span></button>
             </a><br><br>
-            <h5><a href="https://glows.my" target="_blank" style="color: black; font-size: 1.5rem;">WISDOER GLOBAL</a></h5>
+            <h5><a href="https://glows.my" target="_blank" style="color: darkblue; font-size: 1.5rem;">WISDOER GLOBAL</a></h5>
           </v-col>
 
           <v-col
@@ -108,6 +108,10 @@ export default {
   background-color: #3e8e41;
   box-shadow: none;
   transform: none;
+}
+
+.button span {
+  display: block;
 }
 
 </style>
