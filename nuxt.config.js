@@ -290,7 +290,7 @@ export default {
     }
   },
   env: {
-    API_URL: 'https://b5.glows.my/api/' // TODO: Fix for dev environment
+    API_URL: 'https://bigfive-test.com/api/' // TODO: Fix for dev environment
   },
   build: {
     extractCSS: true,
