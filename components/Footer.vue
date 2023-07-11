@@ -8,7 +8,7 @@
       >
         <v-row class="footer-wrapper pl-0">
           <v-col class="footer-heading">
-            <a :href="whatsAppLink" target="_blank">
+            <a :href="https://wa.me/message/DTN4ST4TTRBWG1" target="_blank">
               <button class="button"><span style="line-height: 1.2;">预约咨询</span><span style="line-height: 1.2;">Book a Consultation</span></button>
             </a><br><br>
             <h5><a href="https://glows.my" target="_blank" style="color: darkblue; font-size: 1.5rem;">WISDOER GLOBAL</a></h5>
