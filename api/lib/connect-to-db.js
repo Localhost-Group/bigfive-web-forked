@@ -6,6 +6,7 @@ const uri = process.env.MONGODB_URI
 
 module.exports = async () => {
   if (cachedDb) return cachedDb
+  console.log('uuu', uri)
 
   const client = await MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 

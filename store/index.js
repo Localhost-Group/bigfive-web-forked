@@ -172,7 +172,7 @@ export const actions = {
   async SUBMIT_TEST (context) {
     try {
       context.commit('SET_LOADING', true)
-
+      console.log('TEST TEST')
       const answers = context.state.test.answers
 
       const result = {

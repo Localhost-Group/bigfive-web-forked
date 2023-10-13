@@ -43,6 +43,10 @@ export default {
       short_name: 'b5'
     }
   },
+  server: {
+    host: '0.0.0.0',
+    port: 3000
+  },
   /*
   ** Plugins to load before mounting the App
   */

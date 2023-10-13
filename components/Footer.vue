@@ -5,10 +5,19 @@
         cols="12"
         class="footer-about"
       >
-      <a href="https://wa.me/message/DTN4ST4TTRBWG1" target="_blank">
+        <a
+          href="https://wa.me/message/DTN4ST4TTRBWG1"
+          target="_blank"
+        >
           <button class="button">预约咨询 Book a Consultation</button>
         </a><br><br>
-        <h5><a href="https://glows.my" target="_blank" style="color: darkblue; font-size: 1.5rem;">WISDOER GLOBAL</a></h5>
+        <h5>
+          <a
+            href="https://glows.my"
+            target="_blank"
+            style="color: darkblue; font-size: 1.5rem;"
+          >WISDOER GLOBAL</a>
+        </h5>
         No. 18, 1st Floor<br>
         Lorong Tunku Abdul Rahman 8A<br>
         96000 Sibu, Sarawak, Malaysia<br><br>

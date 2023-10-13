@@ -1,5 +1,7 @@
 # bigfive-web
 
+    command: sh -c "yarn install && cd api && yarn install && cd .. && yarn build && yarn start"
+
 <img src="https://github.com/rubynor/bigfive-web/blob/master/static/icon.png?raw=true" width="160" height="160" alt="Bigfive logo" align="right">
 
 Prod: https://bigfive-test.com
@@ -35,6 +37,7 @@ MONGODB_URI=mongodb://<your-mongodb-url>
 MONGODB_COLLECTION=results
 BASE_URL=http://localhost:3000
 ```
+
 Run the setup script to install all dependencies
 
 ```
@@ -42,11 +45,13 @@ yarn run setup
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 yarn dev
 ```
 
 ### Run your unit tests
+
 ```
 yarn test
 ```
@@ -61,6 +66,7 @@ yarn lintfix
 ## Deploy using [vercel-cli](https://vercel.com/download)
 
 Add a secret with the mongodb connection. Example:
+
 ```
 vc secrets add mongodb_uri mongodb://<username>:<password>@domain.com:53659/bigfive
 ```
@@ -72,6 +78,7 @@ Update [nuxt.config.js](nuxt.config.js) to match your environment.
 You will need to change the `base_url` and `env.API_URL` and the ids for analytics and amplitude.
 
 Run to deploy
+
 ```
 vc --confirm
 ```
@@ -99,5 +106,8 @@ If you want to help by translating the items to other languages [this](https://g
 [MIT](LICENSE)
 
 ## About
+
+docker run -p 3000:3000 -d bigfive
+docker build -t bigfive .
 
 TODO

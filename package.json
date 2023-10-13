@@ -17,7 +17,7 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
-    "setup": "yarn install --frozen-lockfile && cd api && yarn install --frozen-lockfile",
+    "setup": "yarn install",
     "refresh": "rm -rf node_modules && rm yarn.lock && cd api && rm -rf node_modules && rm yarn.lock && cd .. && npm run setup",
     "generate": "nuxt generate",
     "test": "yarn lint && ava -v",

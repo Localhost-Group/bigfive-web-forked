@@ -1,5 +1,8 @@
 <template>
-  <p class="text-right" style="min-width: 5em;">
+  <p
+    class="text-right"
+    style="min-width: 5em;"
+  >
     {{ secToMin(Math.round(elapsed / 1000)) }}
   </p>
 </template>
