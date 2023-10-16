@@ -189,7 +189,7 @@ export const actions = {
 
       context.commit('RESET_STATE')
       context.commit('SET_LOADING', false)
-      $nuxt.$router.push({ path: `/result/${id}` })
+      $nuxt.$router.push({ path: `/pl/result/${id}` })
     } catch (error) {
       context.commit('SET_SNACKBAR', { msg: error.message, type: 'error' })
       context.commit('SET_LOADING', false)
