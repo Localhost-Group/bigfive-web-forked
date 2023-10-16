@@ -2,7 +2,7 @@
   <v-container>
     <div v-if="results">
       <v-row>
-        <v-col>
+        <!-- <v-col>
           <span class="d-print-none">
             <v-select
               v-model="metadata.language"
@@ -12,7 +12,7 @@
               @input="changeLanguage"
             />
           </span>
-        </v-col>
+        </v-col> -->
         <v-col>
           <p
             v-if="metadata.timestamp"
