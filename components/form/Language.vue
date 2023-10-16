@@ -34,9 +34,14 @@ export default {
     mdiEarth,
     mdiMenuDown
   }),
+
   computed: {
     ...mapState(['form', 'languages']),
     ...mapGetters(['GET_SELECTED_LANGUAGE'])
+  },
+  mounted () {
+    // Ustawienie języka na polski
+    this.choseLanguage('pl')
   },
   methods: {
     ...mapMutations(['SET_LANGUAGE', 'SET_INVENTORY']),

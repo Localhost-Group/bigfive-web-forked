@@ -199,74 +199,77 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     shareResults: 'Podziel się wynikami!'
   },
   privacy: {
-    title: 'Privacy Policy',
+    title: 'Polityka Prywatności',
     description: `
-    This privacy policy will explain how we use the personal data we collect from you
-    when you use our website.
-    <h2>What data do we collect?</h2>
-    We collect the following data
-    <br><br>
-    <ul>
-      <li>
-        Age <span class="grey--text">(if submitted)</span>
-      </li>
-      <li>
-        Nationality <span class="grey--text">(if submitted)</span>
-      </li>
-      <li>
-        Gender <span class="grey--text">(if submitted)</span>
-      </li>
-      <li>
-        Choosen test language
-      </li>
-      <li>
-        Test answers
-      </li>
-      <li>
-        Datetime of submitted test
-      </li>
-    </ul>
-    <br>
-    We also use Google Analytics to measure traffic to our site and how users interact with our site. The Google Analytics terms specify that no personally identifiable information may be collected through the Google Analytics software.
-    <br><br>
-    Read more about Google Analytics privacy policy <a
-      href="https://policies.google.com/privacy"
-      rel="noopener noreferrer"
-      target="_blank"
-    >here</a>.
-    <h2>How do we collect your data?</h2>
-    Google Analytics sets the following cookies:
-    <br>
-    <br>
-    <ul>
-      <li>
-        "_ga" is used to distingusih users. The cookie is set the first time a user access the website and has a lifetime of 2 until years
-      </li>
-      <li>
-        "_gat" is used to limit the traffic from Google Analytics, this cookie has a lifetime of 10 minutes.
-      </li>
-    </ul>
-    <br>
-
-    Your web browser also automatically sends information to our hosting provider Zeit.
-    <br>
-    This can i.e. be information about wich browser and version you are using and your Internet address (IP-address). For each page that is displayed, the date and time information, which page you came from, which page you are on, etc. are also stored.
-    <br>
-    <br>
-    When you submit the test the information you provide (described above) is stored in our database.
-    <h2>How will we use your data?</h2>
-    We use Google Analytics to get statistics on how visitors use the site.
-    <br>
-    <br>
-    We will create statistical, aggregated data from the test results for analytical purposes.
-    <h2>How do we store your data?</h2>
-    <h2>How to contact us?</h2>
-    If you have any questions about this privacy policy, please <a
-      href="mailto:contato@umanni.com.br"
-      rel="noopener noreferrer"
-      target="_blank"
-    >contact</a> us.
-    `
+<p><span style="font-weight: 400;">Niniejsze oświadczenie o prywatności dotyczy przetwarzania danych osobowych użytkowników, którzy korzystają ze strony www.campusai.pl oraz zakładają konto na www.campusai.pl. Administratorem przetwarzania tych danych osobowych (dalej: “Administrator”) jest Prosta Spółka Akcyjna CampusAI zarejestrowana przy ul. Chmielnej 73 w Warszawie, wpisana do Rejestru Przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy, XIII Wydział Gospodarczy pod numerem KRS 0001030100, REGON: 525037867, NIP: 5273051714 Dalej zwana “CampusAI”.</span></p>
+<p><span style="font-weight: 400;">CampusAI ponosi odpowiedzialność za przetwarzanie tych danych osobowych i poważnie traktuje kwestię Państwa prywatności. Z tego względu CampusAI przestrzega wymogów Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (dalej: RODO).</span></p>
+<p><span style="font-weight: 400;">Jakie dane osobowe przetwarzamy i dlaczego</span></p>
+<p><span style="font-weight: 400;">CampusAI przetwarza Państwa dane osobowe, ponieważ korzystają Państwo z naszych usług. Wykorzystujemy następujące dane osobowe w następujących celach.</span></p>
+<h2><span style="font-weight: 400;">Rejestracja konta</span></h2>
+<p><span style="font-weight: 400;">Przetwarzamy dane osobowe, które nam Państwo dostarczają, kiedy składają Państwo zamówienie. Te dane są wymagane do realizacji Państwa zamówienia, potwierdzenia go, płatności, a także ewentualnego dokonania zwrotu. Podstawą prawną do przetwarzania tych danych osobowych jest fakt, że jest to niezbędne do realizacji umowy, zgodnie z definicją zawartą w RODO. Przetwarzamy następujące dane osobowe w ramach procesu rejestracji użytkowników Platformy CampusAI.pl (dalej: “Pratforma”):</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Imię i nazwisko</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane adresowe</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane kontaktowe</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane rejestrowe i kontaktowe firmy</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Zamówienie</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane dotyczące płatności</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Komentarze (jeśli dotyczy)</span></li>
+</ul>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Obsługa klienta</span></h2>
+<p><span style="font-weight: 400;">Kiedy skontaktują się Państwo z Administratorem, wykorzystamy dostarczone przez Państwa dane osobowe do udzielenia odpowiedzi na Państwa pytanie lub rozpatrzenie Państwa wniosku. Podstawą prawną do przetwarzania tych danych osobowych jest fakt, że jest to niezbędne do realizacji umowy, zgodnie z definicją zawartą w RODO. Przetwarzamy następujące dane osobowe do celów obsługi klienta:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Imię i nazwisko</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane adresowe (jeśli dotyczy)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane kontaktowe</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane dotyczące płatności (jeśli dotyczy)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Komentarze (jeśli dotyczy)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Wszelkie szczegółowe dane, których Państwo udzielili nam w celu realizacji zleceń dla Państwa.</span></li>
+</ul>
+<p>&nbsp;</p>
+<h2><span style="font-weight: 400;">Badanie satysfakcji klientów</span></h2>
+<p><span style="font-weight: 400;">Aby upewnić się, że nasze usługi są dopasowane do Państwa preferencji, wszelkie dane osobowe, które udostępniają Państwo na Platformie, mogą być wykorzystywane do operacji, takich jak badanie satysfakcji konsumentów. Podstawą prawną do tej operacji przetwarzania danych jest to, że jest to potrzebne w ramach kierowania się uzasadnionym interesem firmy CampusAI (satysfakcja klientów), zgodnie z definicją zawartą w RODO. Dotyczy to tych samych danych osobowych, o których mowa w punkcie 2.</span></p>
+<h2><span style="font-weight: 400;">Wiadomości marketingowe</span></h2>
+<p><span style="font-weight: 400;">Przetwarzamy Państwa dane osobowe również po to, aby móc wysyłać Państwu (spersonalizowane) komunikaty marketingowe i powiadomienia. Tego rodzaju komunikaty obejmują aktualności, zniżki i sugestie związane z możliwymi potrzebami na zakup dodatkowych produktów. Podstawą prawną do tego przetwarzania danych osobowych, zgodnie z definicją zawartą w RODO, jest fakt, iż wyrazili Państwo na to zgodę, składając zamówienie. W dowolnym momencie, w którym chcą Państwo zmienić swoje preferencje dotyczące otrzymywania tego rodzaju wiadomości i powiadomień, mogą Państwo wycofać zgodę w odpowiedzi na daną wiadomość o charakterze marketingowym.</span></p>
+<h2><span style="font-weight: 400;">Pliki cookie</span></h2>
+<p><span style="font-weight: 400;">Przetwarzamy również Państwa dane osobowe, których nie udostępniają nam Państwo bezpośrednio. CampusAI wykorzystuje pliki cookie do celów funkcjonalnych, analitycznych i marketingowych. Funkcjonalne pliki cookie są niezbędne do korzystania ze strony internetowej. Pliki cookie zbierają następujące dane osobowe:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dane dotyczące lokalizacji</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Adres IP lub identyfikatory aplikacji</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Rodzaj przeglądarki internetowej i typ urządzenia</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Język strony internetowej</span></li>
+</ul>
+<h2><span style="font-weight: 400;">Jak długo przechowujemy dane osobowe</span></h2>
+<p><span style="font-weight: 400;">CampusAI nie będzie przechowywać Państwa danych dłużej niż jest to konieczne do realizacji usług, dla których zbierane były Państwa dane osobowe, oraz dla potencjalnych przyszłych zleceń, które mogą być nam powierzone. Będziemy przechowywać Państwa dane osobowe przez dłuższy czas, jeśli jest to wymagane w myśl przepisów prawa. Przechowujemy dane osobowe, które wykorzystujemy do celów raportowych, analitycznych oraz zapobiegania nadużyciom przez cały&nbsp; okres użytkowania Platformy, tj posiadania aktywnego konta użytkownika,&nbsp; oraz&nbsp; do 10 lat od momentu zakończenia posiadania aktywnego konta użytkownika Platformy .</span></p>
+<h2><span style="font-weight: 400;">Udostępnianie danych podmiotom trzecim</span></h2>
+<p><span style="font-weight: 400;">CampusAI może udostępniać Państwa dane osobowe swoim pracownikom i współpracownikom, a także &nbsp; podmiotom, z którymi współpracuje w celu realizacji usługi, dostawcom usług IT, hostingodawcą oraz podmiotom świadczącym usługi doradcze, rachunkowe i prawnicze, itp. Dane będą jednak przekazywane tylko w przypadkach, w których jest to wymagane w celu sprawnej realizacji usługi. W przeciwnym wypadku dane będą zanonimizowane, aby zapewnić Państwu większą ochronę.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Niektóre z Twoich danych osobowych, tj. imię i nazwisko, adres email, mogą być widoczne dla innych użytkowników Platformy, którzy są zarejestrowani, w celu świadczenia usług związanych z Twoim kontem, budowaniem społeczności oraz współpracą projektową. Twoje dane osobowe mogą być udostępnione podmiotom i organom, którzy są uprawnieni do przetwarzania tych danych zgodnie z przepisami prawa. Twoje dane osobowe mogą być przekazywane do państw poza UE, ale tylko jeśli tamtejsze państwa lub organizacje zapewniają odpowiedni poziom ochrony danych osobowych, uznany przez Komisję Europejską jako zgodny ze standardami ochrony danych osobowych obowiązujących w EOG.</span></p>
+<h2><span style="font-weight: 400;">Kto ma wgląd w moje dane?</span></h2>
+<h3><span style="font-weight: 400;">Kategorie odbiorców Państwa danych osobowych obejmują:</span></h3>
+<p><span style="font-weight: 400;">osoby upoważnione przez Administratora,</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">a. podmioty przetwarzające dane osobowe na podstawie zawartej przez Administratora umowy o powierzenie przetwarzania danych,</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">b. podmioty, których udział w realizacji usługi jest konieczny ze względu na treść umowy np. firmy świadczące usługi kurierskie, pocztowe, dostawcy systemów IT, indywidualni specjaliści oraz przedsiębiorstwa świadczące usługi zarządzania zasobami dokumentacyjnymi oraz ich przechowywania, firmy świadczące obsługę prawną i podatkową oraz usługi windykacji należności, a także firmy świadczące usługi księgowe,</span><span style="font-weight: 400;"><br></span><span style="font-weight: 400;">c. podmioty, którym Administrator udostępnił dane osobowe na podstawie przepisów prawa.</span></p>
+<h3><span style="font-weight: 400;">Nie udostępnianie danych innym osobom</span></h3>
+<p><span style="font-weight: 400;">CampusAI nie będzie wysyłać Państwa danych osobowych osobom trzecim, nie będzie nimi handlować, a dane te będziemy ujawniać osobom trzecim wyłącznie, jeśli jest to konieczne w celu realizacji naszej umowy z Państwem, w celach analitycznych i marketingowych lub w związku z przestrzeganiem zobowiązań prawnych.</span></p>
+<p><span style="font-weight: 400;">Państwa dane osobowe mogą być udostępnianie następującym osobom:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Dostawcy oprogramowania</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Partnerzy w dziedzinie realizacji usług</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Firmy zajmujące się badaniem satysfakcji konsumentów</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Platformy reklamowe (np. Google lub Facebook)</span></li>
+</ul>
+<p><span style="font-weight: 400;">W każdym przypadku, w którym zlecamy firmie będącej osobą trzecią przetwarzanie Państwa danych osobowych w naszym imieniu, będziemy zawierać umowę dotyczącą przetwarzania danych w celu zagwarantowania tego samego poziomu ochrony danych i poufności Państwa danych osobowych.</span></p>
+<h3><span style="font-weight: 400;">Strony internetowe osób trzecich</span></h3>
+<p><span style="font-weight: 400;">Nasza strona internetowa może zawierać odnośniki do stron internetowych osób trzecich. Podczas uzyskiwania dostępu do tego rodzaju stron internetowych osób trzecich należy pamiętać, że każda z takich stron internetowych ma własne oświadczenie o prywatności. Mimo że CACampusAIMPUSAI dokłada ogromnej troski w zakresie wyboru stron, do których podawane są odnośniki, nie możemy założyć odpowiedzialności za sposób, w jaki strony te będą postępować z Państwa danymi osobowymi.</span></p>
+<h3><span style="font-weight: 400;">Czy przetwarzane są moje „wrażliwe” dane osobowe?</span></h3>
+<p><span style="font-weight: 400;">CampusAI nie zbiera w sposób celowy „wrażliwych” danych osobowych, chyba że taki obowiązek wynika z obowiązujących przepisów prawa, na przykład dla celów rekrutacji. Wrażliwe informacje obejmują dane osobowe dotyczące pochodzenia rasowego lub etnicznego, poglądów politycznych, przynależności do związku zawodowego, przekonań religijnych/wyznania lub światopoglądu, stanu zdrowia, seksualności, orientacji seksualnej lub karalności użytkownika, jak też dane genetyczne lub biometryczne.</span></p>
+<p><span style="font-weight: 400;">Apelujemy do użytkowników, aby kierowali się rozwagą, przekazując CampusAI wrażliwe informacje i w żadnym razie nie przekazywali CampusAI wrażliwych informacji, chyba że wyrażą wyraźną zgodę na wykorzystywanie takich informacji przez CampusAI w celu prowadzenia przez CampusAI legalnej działalności oraz na powierzenie przetwarzania i przechowywanie takich danych w bazach danych CampusAI. Jeśli mają Państwo jakiekolwiek pytania dotyczące tego, czy przekazywanie wrażliwych informacji CampusAI jest lub może być wymagane w konkretnym przypadku, prosimy o kontakt z nami pod adresem&nbsp;</span><span style="font-weight: 400;">info@campusai.pl</span></p>
+<h2><span style="font-weight: 400;">Dostęp, poprawianie i usuwanie danych osobowych</span></h2>
+<p><span style="font-weight: 400;">Mają Państwo prawo do dostępu do wszystkich danych osobowych, które zbieramy na Państwa temat, jak również do tego, aby wymagać poprawienia lub usunięcia swoich danych osobowych. Jeśli uważają Państwo, że przetwarzamy Państwa dane osobowe bez ważnej podstawy prawnej lub że przetwarzamy dane osobowe, które nie są istotne dla korzystania z Platformy, prosimy o kontakt. Możesz skontaktować się za pośrednictwem naszego maila info@campusai.pl.&nbsp;</span></p>
+<h2><span style="font-weight: 400;">Wskazówki, pytania i skargi</span></h2>
+<p><span style="font-weight: 400;">Jeśli mają Państwo jakiekolwiek inne pytania lub skargi na temat przetwarzania swoich danych osobowych, z chęcią z Państwem porozmawiamy. Czekamy również na informację od Państwa, jeśli mają Państwo wskazówki lub sugestie na temat ulepszeń w zakresie naszej polityki prywatności.</span></p>
+<h2><span style="font-weight: 400;">Bezpieczeństwo</span></h2>
+<p><span style="font-weight: 400;">CampusAI bardzo poważnie traktuje kwestię ochrony danych osobowych i z tego względu podejmujemy odpowiednie środki w celu ochrony Państwa danych osobowych przed nadużyciem, utratą, nieupoważnionym dostępem, niepożądanym ujawnianiem i nieupoważnionymi zmianami. Jeśli uważają Państwo, że Państwa dane nie są odpowiednio chronione lub istnieją oznaki nadużyć, prosimy kontaktować się z nami drogą mailową pod adresem email&nbsp;</span><span style="font-weight: 400;">info@campusai.pl</span></p>
+<h1>&nbsp;</h1>`
   },
   opennessToExperience: {
     quote: 'Otwartość na doświadczenie opisuje styl poznawczy, który odróżnia osoby z wyobraźnią, kreatywne od osób konwencjonalnych, twardo stąpających po ziemi.',

@@ -61,10 +61,10 @@
           class="text-center"
           cols="12"
         >
-          <h1
+          <!-- <h1
             class="font-italic"
             v-html="$t('frontpage.tests_taken')"
-          />
+          /> -->
         </v-col>
         <v-col>
           <Highlights />

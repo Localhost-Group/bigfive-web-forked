@@ -1,9 +1,9 @@
 <template>
-  <v-row>
+  <v-row style="justify-content: space-between;">
     <v-col
-      cols="6"
-      xs="6"
-      sm="6"
+      cols="3"
+      xs="3"
+      sm="3"
       md="3"
     >
       <img
@@ -45,7 +45,7 @@
       <h3 v-html="$t('frontpage.cards.scientific.title')" />
       <span color="#666">{{ $t('frontpage.cards.scientific.text') }}</span>
     </v-col>
-    <v-col
+    <!-- <v-col
       cols="6"
       xs="6"
       sm="6"
@@ -62,7 +62,7 @@
         color="#666"
         v-html="$t('frontpage.cards.translated.text')"
       />
-    </v-col>
+    </v-col> -->
   </v-row>
 </template>
 

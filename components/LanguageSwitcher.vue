@@ -102,7 +102,9 @@ export default {
   },
   computed: {
     availableLocales () {
-      return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
+      // Zwróć tylko polski język
+      return this.$i18n.locales.filter(i => i.code === 'pl')
+      // return this.$i18n.locales.filter(i => i.code !== this.$i18n.locale)
     },
     selectedLocale () {
       return this.$i18n.locale
