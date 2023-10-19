@@ -1,57 +1,30 @@
 <template>
   <div>
-    <v-app-bar
-      app
-      color="white"
-      class="app-bar-shadow"
-    >
+    <v-app-bar app color="white" class="app-bar-shadow">
       <div class="toolbar-wrapper">
         <div class="d-flex align-center">
           <nuxt-link :to="localePath('/')">
-            <transition
-              appear
-              name="rotate"
-            >
-              <v-img
-                alt="BigFive logo"
-                class="shrink mr-2"
-                contain
-                :src="logoSrc"
-                transition="fade-transition"
-                width="100"
-              />
+            <transition appear name="rotate">
+              <v-img alt="BigFive logo" class="shrink mr-2" contain :src="logoSrc" transition="fade-transition"
+                width="100" />
             </transition>
           </nuxt-link>
         </div>
         <v-spacer />
-        <v-btn
-          text
-          :to="localePath('result')"
-          class="hidden-sm-and-down text-none font-weight-regular"
-        >
+        <v-btn text :to="localePath('result')" class="hidden-sm-and-down text-none font-weight-regular">
           {{ $t('toolbar.see_results') }}
         </v-btn>
-        <v-btn
+        <!-- <v-btn
           text
           :to="localePath('compare')"
           class="hidden-sm-and-down text-none font-weight-regular"
         >
           {{ $t('toolbar.compare_with') }}
-        </v-btn>
+        </v-btn> -->
         <!-- <LanguageSwitcher /> -->
-        <v-menu
-          v-model="drawer"
-          bottom
-          offset-y
-          min-width="150"
-        >
+        <v-menu v-model="drawer" bottom offset-y min-width="150">
           <template #activator="{ on }">
-            <v-btn
-              icon
-              aria-label="Expand menu"
-              v-on="on"
-              @click="drawer = !drawer"
-            >
+            <v-btn icon aria-label="Expand menu" v-on="on" @click="drawer = !drawer">
               <v-icon>{{ icons.mdiMenu }}</v-icon>
             </v-btn>
           </template>
@@ -62,13 +35,8 @@
               </v-subheader>
             </v-list-item>
             <v-divider />
-            <v-list-item
-              v-for="item in items"
-              :key="item.title"
-              :to="localePath(item.url)"
-              link
-              class="text-none font-weight-regular pl-5 body-2"
-            >
+            <v-list-item v-for="item in items" :key="item.title" :to="localePath(item.url)" link
+              class="text-none font-weight-regular pl-5 body-2">
               {{ item.title }}
             </v-list-item>
           </v-list>
@@ -94,10 +62,10 @@ export default {
     }
   },
   computed: {
-    items () {
+    items() {
       return [
         { title: this.$t('toolbar.result'), url: '/result' },
-        { title: this.$t('toolbar.compare'), url: '/compare' },
+        // { title: this.$t('toolbar.compare'), url: '/compare' },
         // { title: this.$t('toolbar.articles'), url: '/articles' },
         { title: this.$t('toolbar.privacy'), url: '/privacy' }
         // { title: this.$t('toolbar.about'), url: '/about' },
@@ -111,7 +79,7 @@ export default {
 
 <style>
 .app-bar-shadow {
-  box-shadow: inset 0 -1px 0 0 rgba(0,0,0,0.1) !important;
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1) !important;
 }
 
 .toolbar-wrapper {
@@ -124,14 +92,20 @@ export default {
 }
 
 @keyframes spinHorizontal {
-  0% { transform: rotateY(0deg); }
-  100% { transform: rotateY(360deg); }
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
 }
+
 .rotate-enter-active {
   animation: spinHorizontal 1s;
 }
 
 .v-menu__content {
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.02) !important;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02) !important;
 }
 </style>

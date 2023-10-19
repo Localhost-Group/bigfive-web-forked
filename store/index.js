@@ -175,7 +175,10 @@ export const actions = {
       console.log('TEST TEST')
       const answers = context.state.test.answers
 
+      const userEmail = localStorage.getItem('userEmail');
+
       const result = {
+        email: userEmail,
         testId: getInfo.shortId,
         lang: context.state.form.language,
         invalid: context.state.test.invalid,
@@ -185,6 +188,7 @@ export const actions = {
       }
 
       const { id } = await this.$axios.$post('http://localhost:4000/api/' + 'save', result)
+      localStorage.removeItem('userEmail');
       console.log(process.env.API_URL)
       localStorage.setItem('resultId', id)
 
