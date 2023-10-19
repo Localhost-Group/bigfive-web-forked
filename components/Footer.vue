@@ -5,13 +5,13 @@
         cols="12"
         class="footer-about"
       >
-        <a
+        <!-- <a
           href="https://wa.me/message/DTN4ST4TTRBWG1"
           target="_blank"
         >
           <button class="button">预约咨询 Book a Consultation</button>
-        </a><br><br>
-        <h5>
+        </a><br><br> -->
+        <!-- <h5>
           <a
             href="https://glows.my"
             target="_blank"
@@ -21,13 +21,17 @@
         No. 18, 1st Floor<br>
         Lorong Tunku Abdul Rahman 8A<br>
         96000 Sibu, Sarawak, Malaysia<br><br>
-        <a href="mailto:wg@glows.my">wg@glows.my</a><br>
+        <a href="mailto:wg@glows.my">wg@glows.my</a><br> -->
       </v-col>
       <v-col
         class="footer-text"
         cols="12"
       >
-        © {{ new Date().getFullYear() }} — Wisdoer Global - all rights reserved.
+        © {{ new Date().getFullYear() }} — Campus AI.
+        Strona używa projektu BigFive autorstwa <a
+          href="https://github.com/rubynor"
+          target="_blank"
+        >rubynor</a>
       </v-col>
     </v-row>
   </v-footer>

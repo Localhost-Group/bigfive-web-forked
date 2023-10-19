@@ -1,3 +1,4 @@
+
 <template>
   <v-container>
     <div v-if="results">
@@ -14,10 +15,7 @@
           </span>
         </v-col> -->
         <v-col>
-          <p
-            v-if="metadata.timestamp"
-            class="text-right grey--text"
-          >
+          <p v-if="metadata.timestamp" class="text-right grey--text">
             {{ new Date(metadata.timestamp).toLocaleString() }}
           </p>
         </v-col>
@@ -29,14 +27,9 @@
         </nuxt-link> {{ $t('results.toOthers') }}
         <br>
         <br>
-        <v-alert
-          outlined
-          color="secondary"
-        >
-          <span
-            class="secondary--text headline"
-            :class="{'title': $vuetify.breakpoint.xs}"
-          >{{ $route.params.id }}</span>
+        <v-alert outlined color="secondary">
+          <span class="secondary--text headline" :class="{ 'title': $vuetify.breakpoint.xs }">{{ $route.params.id
+          }}</span>
         </v-alert>
         <ShareLinks :id="'result/' + $route.params.id" />
       </div>
@@ -44,14 +37,8 @@
       <div class="display-1 mt-6">
         {{ $t('results.theBigFive') }}
       </div>
-      <BarChart
-        :data="results"
-        :max="Number(120)"
-      />
-      <div
-        v-for="domain in results"
-        :key="domain.id"
-      >
+      <BarChart :data="results" :max="Number(120)" />
+      <div v-for="domain in results" :key="domain.id">
         <Domain :domain="domain" />
       </div>
       <br>
@@ -67,11 +54,11 @@ import { mdiMenuDown } from '@mdi/js'
 
 export default {
   name: 'Result',
-  async asyncData ({ params, store, $axios, query }) {
+  async asyncData({ params, store, $axios, query }) {
     try {
       const lang = query.lang ? `/${query.lang}` : ''
-      const url = process.env.API_URL + 'result/' + params.id + lang
-
+      // const url = process.env.API_URL + 'result/' + params.id + lang
+      const url = 'http://localhost:4000/api/' + 'result/' + params.id + lang
       const data = await $axios.$get(url)
 
       return {
@@ -91,7 +78,7 @@ export default {
     results: false,
     mdiMenuDown
   }),
-  head () {
+  head() {
     return {
       title: this.$t('results.seo.title'),
       meta: [
@@ -106,11 +93,11 @@ export default {
       ]
     }
   },
-  mounted () {
+  mounted() {
     this.$amplitude.getInstance().logEvent('b5.test', { part: 'result' })
   },
   methods: {
-    changeLanguage (lang) {
+    changeLanguage(lang) {
       this.$router.replace(
         { pathname: '/result', params: { id: this.$route.params.id }, query: { lang } },
         () => {

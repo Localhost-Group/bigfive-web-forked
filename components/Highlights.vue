@@ -1,6 +1,6 @@
 <template>
-  <v-row style="justify-content: space-between;">
-    <v-col
+  <v-row style="justify-content: space-around;">
+    <!-- <v-col
       cols="3"
       xs="3"
       sm="3"
@@ -14,7 +14,7 @@
       >
       <h3 v-html="$t('frontpage.cards.open.title')" />
       <span color="#666">{{ $t('frontpage.cards.open.text') }}</span>
-    </v-col>
+    </v-col> -->
     <v-col
       cols="6"
       xs="6"

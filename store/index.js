@@ -184,12 +184,13 @@ export const actions = {
         dateStamp: Date.now()
       }
 
-      const { id } = await this.$axios.$post(process.env.API_URL + 'save', result)
+      const { id } = await this.$axios.$post('http://localhost:4000/api/' + 'save', result)
+      console.log(process.env.API_URL)
       localStorage.setItem('resultId', id)
 
       context.commit('RESET_STATE')
       context.commit('SET_LOADING', false)
-      $nuxt.$router.push({ path: `/pl/result/${id}` })
+      $nuxt.$router.push({ path: `/result/${id}` })
     } catch (error) {
       context.commit('SET_SNACKBAR', { msg: error.message, type: 'error' })
       context.commit('SET_LOADING', false)
