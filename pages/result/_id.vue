@@ -58,7 +58,7 @@ export default {
     try {
       const lang = query.lang ? `/${query.lang}` : ''
       // const url = process.env.API_URL + 'result/' + params.id + lang
-      const url = 'http://localhost:4000/api/' + 'result/' + params.id + lang
+      const url = 'https://bigfive.campusai.pl/api/' + 'result/' + params.id + lang
       const data = await $axios.$get(url)
 
       return {

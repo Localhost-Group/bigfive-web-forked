@@ -88,6 +88,7 @@ export default {
   margin: auto;
   max-width: 960px;
   width: 100%;
+  height: 100%;
   align-items: center;
 }
 

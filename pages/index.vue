@@ -40,7 +40,7 @@
         </v-col>
         <v-col cols="12" xs="12" md="6" class="text-md-left text-center">
           <h1 v-html="$t('frontpage.compare.title')" />
-          <p v-html="$t('frontpage.compare.text1')" />
+          <!-- <p v-html="$t('frontpage.compare.text1')" /> -->
           <p class="black--link">
             {{ $t('frontpage.compare.text2') }}
             <nuxt-link :to="localePath('openness_to_experience')">
@@ -59,12 +59,12 @@
               {{ $t('facets.neuroticism.title') }}
             </nuxt-link>
           </p>
-          <p>
+          <!-- <p>
             <v-btn outlined
               :to="localePath('/compare/W3sibmFtZSI6Ik1hcnZpbiIsImlkIjoiNThhNzA2MDZhODM1YzQwMGM4YjM4ZTg0In0seyJuYW1lIjoiQXJ0aHVyIERlbnQiLCJpZCI6IjVlNTZiYTdhYjA5NjEzMDAwN2Q1ZDZkOCJ9LHsibmFtZSI6IkZvcmQgUGVyZmVjdCIsImlkIjoiNWRlYTllODhlMTA4Y2IwMDYyMTgzYWYzIn0seyJuYW1lIjoiU2xhcnRpYmFydGZhc3QiLCJpZCI6IjVlNTZiNjUwYjA5NjEzMDAwN2Q1ZDZkMCJ9XQ%3D%3D')">
               {{ $t('frontpage.compare.action') }}
             </v-btn>
-          </p>
+          </p> -->
         </v-col>
       </v-row>
       <!-- <v-row> -->

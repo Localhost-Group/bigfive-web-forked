@@ -187,7 +187,7 @@ export const actions = {
         dateStamp: Date.now()
       }
 
-      const { id } = await this.$axios.$post('http://localhost:4000/api/' + 'save', result)
+      const { id } = await this.$axios.$post('https://bigfive.campusai.pl/api/' + 'save', result)
       localStorage.removeItem('userEmail');
       console.log(process.env.API_URL)
       localStorage.setItem('resultId', id)

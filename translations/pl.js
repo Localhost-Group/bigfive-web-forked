@@ -13,9 +13,9 @@ export default {
     no_registration: '* Rejestracja nie jest wymagana',
     tests_taken: 'Ponad 4.000.000 ludzi wzięło udział w teście',
     compare: {
-      title: 'Porównaj się z innymi',
+      title: 'Sprawdź swoją osobowość',
       text1: 'Porównaj się ze swoim partnerem, partnerką, kolegami, przyjaciółmi i rodziną.',
-      text2: 'Dowiedz się, jak różnisz się od innych ludzi pod względem pięciu czynników:',
+      text2: 'Przeanalizuj pięć kluczowych cech charakteru, a następnie zastanów się, jak te elementy wpływają na różne aspekty Twojego życia:',
       action: 'Zobacz'
     },
     share: 'Udostępnij test przyjaciołom i dowiedz się jak bardzo jesteście kompatybilni',
