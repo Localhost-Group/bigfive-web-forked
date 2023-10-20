@@ -311,7 +311,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ["Passion One"]
+      families: ["Mulish"]
     }
   },
   vuetify: {
@@ -319,26 +319,26 @@ export default {
     treeShake: true,
     defaultAssets: {
       font: {
-        family: "Krub",
+        family: "Mulish",
         size: "1.125rem"
       },
       icons: false
     },
     lang: {
-      current: "en"
+      current: "pl"
     },
     theme: {
       light: true,
       themes: {
         light: {
           primary: "#000000",
-          secondary: "#ff0080",
+          secondary: "#49bb58",
           accent: "#607d8b",
           error: "#f44336",
           warning: "#ff9800",
           info: "#03a9f4",
           success: "#7dde76",
-          anchor: "#ff0080"
+          anchor: "#49bb58"
         }
       }
     }

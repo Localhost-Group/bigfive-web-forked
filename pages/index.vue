@@ -67,15 +67,17 @@
           </p>
         </v-col>
       </v-row>
-      <v-row>
-        <v-col class="text-center" cols="12">
+      <!-- <v-row> -->
+      <!-- <v-col class="text-center" cols="12">
           <h2 style="color: #797878" v-html="$t('frontpage.share')" />
           <ShareLinks />
-        </v-col>
-      </v-row>
+        </v-col> -->
+      <!-- </v-row> -->
     </Wrapper>
   </div>
 </template>
+
+
 
 <script>
 import { mapState } from 'vuex'
@@ -107,6 +109,11 @@ export default {
 </script>
 
 <style scoped>
+.mt-7 {
+  border-radius: 20px;
+  box-shadow: none;
+}
+
 p {
   font-size: 1.3rem;
   line-height: 1.9;

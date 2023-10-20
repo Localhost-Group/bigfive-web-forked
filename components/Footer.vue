@@ -1,10 +1,7 @@
 <template>
   <v-footer class="pl-10 pt-10">
     <v-row class="footer-wrapper pl-0">
-      <v-col
-        cols="12"
-        class="footer-about"
-      >
+      <v-col cols="12" class="footer-about">
         <!-- <a
           href="https://wa.me/message/DTN4ST4TTRBWG1"
           target="_blank"
@@ -23,15 +20,10 @@
         96000 Sibu, Sarawak, Malaysia<br><br>
         <a href="mailto:wg@glows.my">wg@glows.my</a><br> -->
       </v-col>
-      <v-col
-        class="footer-text"
-        cols="12"
-      >
+      <v-col class="footer-text" cols="12">
         © {{ new Date().getFullYear() }} — Campus AI.
-        Strona używa projektu BigFive autorstwa <a
-          href="https://github.com/rubynor"
-          target="_blank"
-        >rubynor</a>
+        Strona korzysta z projektu BigFive stworzonego przez <a href="https://github.com/rubynor"
+          target="_blank">rubynor</a>
       </v-col>
     </v-row>
   </v-footer>
@@ -49,7 +41,7 @@ export default {
     mdiGithub
   }),
   methods: {
-    logClick (choice) {
+    logClick(choice) {
       console.log(choice)
       this.$amplitude.getInstance().logEvent(`goes to ${choice}`, {})
     }
@@ -65,19 +57,27 @@ export default {
   margin-left: auto;
   max-width: 1200px;
 }
+
 .footer-heading {
   font-family: 'Passion One', cursive;
   font-size: 4rem;
   color: #4c4f5a;
   line-height: 3.5rem;
 }
+
 .footer-about {
   letter-spacing: .1em;
 }
+
 .footer-text {
   font-family: 'Didact Gothic', sans-serif;
   color: #b3b3b3;
 }
+
+.footer-text a {
+  color: #49bb58 !important;
+}
+
 .footer-wrapper {
   max-width: 1200px;
   width: 100%;
@@ -115,5 +115,4 @@ export default {
 .button span {
   display: block;
 }
-
 </style>

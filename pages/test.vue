@@ -61,6 +61,10 @@
 .custom-start-button {
   color: white;
   background-color: #3AB54A;
+  padding: 0 23px !important;
+  height: 52px !important;
+  box-shadow: none !important;
+  border-radius: 20px;
 }
 </style>
 

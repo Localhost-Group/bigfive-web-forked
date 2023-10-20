@@ -398,315 +398,316 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       </p>
     `
   },
-  neuroticismPage: {
-    quote: 'Neuroticism refers to the tendency to experience negative feelings.',
+neuroticismPage: {
+    quote: 'Neurotyzm odnosi się do tendencji do doświadczania negatywnych uczuć.',
     text1: `
     <p>
-      Neuroticism refers to the tendency to experience negative feelings.
+      Neurotyzm odnosi się do tendencji do doświadczania negatywnych uczuć.
     </p>
     <p>
-      Freud originally used the term neurosis to describe a condition marked by mental distress, emotional suffering, and an inability to cope effectively with the normal demands of life.
+      Freud początkowo używał terminu neuroza, aby opisać stan charakteryzujący się psychicznym cierpieniem, emocjonalnym cierpieniem i niezdolnością do skutecznego radzenia sobie z normalnymi wymaganiami życia.
     </p>
     <p>
-      He suggested that everyone shows some signs of neurosis, but that we differ in our degree of suffering and our specific symptoms of distress.
+      Sugerował, że każdy manifestuje pewne objawy neurozy, ale różnimy się stopniem cierpienia i konkretnymi objawami zmartwienia.
     </p>
     <p>
-      Today neuroticism refers to the tendency to experience negative feelings.
+      Dziś neurotyzm odnosi się do tendencji do doświadczania negatywnych uczuć.
     </p>
     <p>
-      Those who score high on Neuroticism may experience primarily one specific negative feeling such as anxiety, anger, or depression, but are likely to experience several of these emotions.
+      Osoby o wysokim wyniku w neurotyzmie mogą doświadczać przede wszystkim jednego konkretnego negatywnego uczucia, takiego jak lęk, złość czy depresja, ale są prawdopodobnie narażone na kilka z tych emocji.
     </p>`,
     text2: `<p>
-      People high in neuroticism are emotionally reactive.
+      Osoby o wysokim poziomie neurotyzmu są emocjonalnie reaktywne.
     </p>
     <p>
-      They respond emotionally to events that would not affect most people, and their reactions tend to be more intense than normal.
+      Odpowiadają emocjonalnie na wydarzenia, które nie miałyby wpływu na większość ludzi, a ich reakcje są zazwyczaj intensywniejsze niż normalnie.
     </p>
     <p>
-      They are more likely to interpret ordinary situations as threatening, and minor frustrations as hopelessly difficult.
+      Mają większą tendencję do interpretowania zwykłych sytuacji jako zagrożające oraz drobnych frustracji jako beznadziejnie trudne.
     </p>
     <p>
-      Their negative emotional reactions tend to persist for unusually long periods of time, which means they are often in a bad mood.
+      Ich negatywne reakcje emocjonalne mają tendencję do utrzymywania się przez niezwykle długi czas, co oznacza, że często są w złym nastroju.
     </p>
     <p>
-      These problems in emotional regulation can diminish a neurotic's ability to think clearly, make decisions, and cope effectively with stress.
-    </p>
-
-    <div class="title">
-      Anxiety
-    </div>
-    <p>
-      The "fight-or-flight" system of the brain of anxious individuals is too easily and too often engaged.
-      Therefore, people who are high in anxiety often feel like something dangerous is about to happen.
-      They may be afraid of specific situations or be just generally fearful.
-      They feel tense, jittery, and nervous. Persons low in Anxiety are generally calm and fearless.
+      Problemy w regulacji emocji mogą obniżyć zdolność neurotyka do myślenia klarownie, podejmowania decyzji i skutecznego radzenia sobie ze stresem.
     </p>
 
     <div class="title">
-      Anger
+      Lęk
     </div>
     <p>
-      Persons who score high in Anger feel enraged when things do not go their way.
-      They are sensitive about being treated fairly and feel resentful and bitter when they feel they are being cheated.
-      This scale measures the tendency to feel angry; whether or not the person expresses annoyance and hostility depends on the individual's level on neuroticism.
-      Low scorers do not get angry often or easily.
+      System "walcz lub uciekaj" mózgu osób z wysokim poziomem lęku jest zbyt łatwo i zbyt często aktywowany.
+      Dlatego osoby o wysokim poziomie lęku często mają poczucie, że coś niebezpiecznego właśnie się wydarzy.
+      Mogą bać się konkretnych sytuacji lub być po prostu ogólnie przestraszone.
+      Czują się spięte, nerwowe i zdenerwowane. Osoby o niskim poziomie lęku są zazwyczaj spokojne i nieustraszone.
     </p>
 
     <div class="title">
-      Depression
+      Złość
     </div>
     <p>
-      This scale measures the tendency to feel sad, dejected, and discouraged.
-      High scorers lack energy and have difficulty initiating activities.
-      Low scorers tend to be free from these depressive feelings.
+      Osoby o wysokim wyniku w złości czują się wściekłe, gdy rzeczy nie idą po ich myśli.
+      Są wrażliwe na sprawiedliwe traktowanie i odczuwają urazę i gorycz, gdy mają wrażenie, że są oszukiwane.
+      Ta skala mierzy tendencję do odczuwania złości; czy osoba wyraża irytację i wrogość zależy od poziomu neurotyzmu danej jednostki.
+      Osoby o niskim wyniku nie gniewają się często ani łatwo.
     </p>
 
     <div class="title">
-      Self-Consciousness
+      Depresja
     </div>
     <p>
-      Self-conscious individuals are sensitive about what others think of them.
-      Their concern about rejection and ridicule cause them to feel shy and uncomfortable abound others.
-      They are easily embarrassed and often feel ashamed.
-      Their fears that others will criticize or make fun of them are exaggerated and unrealistic, but their awkwardness and discomfort may make these fears a self-fulfilling prophecy.
-      Low scorers, in contrast, do not suffer from the mistaken impression that everyone is watching and judging them.
-      They do not feel nervous in social situations.
+      Ta skala mierzy tendencję do odczuwania smutku, przygnębienia i zniechęcenia.
+      Osoby o wysokim wyniku mają niską energię i trudności w inicjowaniu działań.
+      Osoby o niskim wyniku są zazwyczaj wolne od tych uczuć depresyjnych.
     </p>
 
     <div class="title">
-      Immoderation
+      Samoswiadomość
     </div>
     <p>
-      Immoderate individuals feel strong cravings and urges that they have have difficulty resisting.
-      They tend to be oriented toward short-term pleasures and rewards rather than long- term consequences.
-      Low scorers do not experience strong, irresistible cravings and consequently do not find themselves tempted to overindulge.
+      Osoby samoświadome są wrażliwe na to, co inni o nich myślą.
+      Ich obawy o odrzucenie i kpiny sprawiają, że czują się nieśmiali i nieswojo wśród innych.
+      Łatwo się zażenowują i często czują się zawstydzone.
+      Ich obawy, że inni będą ich krytykować lub wyśmiewać, są przesadzone i nierzeczywiste, ale ich niezręczność i dyskomfort mogą sprawić, że te obawy spełnią się jako samospełniająca się przepowiednia.
+      Osoby o niskim wyniku, w przeciwieństwie do tego, nie cierpią z powodu błędnego przekonania, że wszyscy ich obserwują i oceniają.
+      Nie czują się nerwowe w sytuacjach społecznych.
     </p>
 
     <div class="title">
-      Vulnerability
+      Niedygnozja
     </div>
     <p>
-      High scorers on Vulnerability experience panic, confusion, and helplessness when under pressure or stress.
-      Low scorers feel more poised, confident, and clear-thinking when stressed.
+      Niedygnojne osoby odczuwają silne pragnienia i impulsy, którym trudno się oprzeć.
+      Mają tendencję do skupiania się na krótkotrwałych przyjemnościach i nagrodach, zamiast na konsekwencjach długoterminowych.
+      Osoby o niskim wyniku nie doświadczają silnych, nieodpartych pragnień i dlatego nie odczuwają pokusy, aby się nadmiernie pobłażać.
+    </p>
+
+    <div class="title">
+      Wrażliwość
+    </div>
+    <p>
+      Osoby o wysokim wyniku w wrażliwości doświadczają paniki, zamieszania i bezradności podczas sytuacji stresowych.
+      Osoby o niskim wyniku czują się bardziej opanowane, pewne siebie i klarownie myślące podczas stresu.
     </p>
     `
   },
   extraversionPage: {
-    quote: 'Extraversion is marked by pronounced engagement with the external world.',
+    quote: 'Ekstrawersja objawia się wyraźnym zaangażowaniem w świat zewnętrzny.',
     text1: `
       <p>
-        Extraversion is marked by pronounced engagement with the external world.
+        Ekstrawertycy cechują się wyraźnym zaangażowaniem w świat zewnętrzny.
       </p>
       <p>
-        Extraverts enjoy being with people, are full of energy, and often experience positive emotions.
-        They tend to be enthusiastic, action-oriented, individuals who are likely to say "Yes!" or "Let's go!" to opportunities for excitement.
-        In groups they like to talk, assert themselves, and draw attention to themselves.
+        Czerpią radość z bycia wśród ludzi, są pełni energii i często doświadczają pozytywnych emocji.
+        Zazwyczaj są entuzjastyczni, skoncentrowani na działaniu, jednostkami gotowymi powiedzieć "Tak!" lub "Chodźmy!" na okazje do ekscytujących doświadczeń.
+        W grupach lubią rozmawiać, manifestować siebie i przyciągać uwagę.
       </p>
     `,
     text2: `
     <p>
-      Introverts lack the exuberance, energy, and activity levels of extraverts.
-      They tend to be quiet, low-key, deliberate, and disengaged from the social world.
-      Their lack of social involvement should not be interpreted as shyness or depression; the introvert simply needs less stimulation than an extravert and prefers to be alone.
-      The independence and reserve of the introvert is sometimes mistaken as unfriendliness or arrogance.
-      In reality, an introvert who scores high on the extraversion dimension will not seek others out but will be quite pleasant when approached.
+      Introwertycy nie posiadają entuzjazmu, energii i poziomu aktywności ekstrawertyków.
+      Zazwyczaj są cisi, spokojni, zamyśleni i odsunięci od świata społecznego.
+      Ich brak zaangażowania społecznego nie powinien być interpretowany jako nieśmiałość ani depresja; introwertyk po prostu potrzebuje mniej bodźców niż ekstrawertyk i woli być sam.
+      Niezależność i powściągliwość introwertyka są czasem mylone z nieprzyjaznością lub arogancją.
+      W rzeczywistości introwertyk, który uzyskuje wysoki wynik w wymiarze ekstrawersji, sam nie szuka kontaktu z innymi, ale jest bardzo miły, gdy jest do niego podejście.
     </p>
 
     <div class="title">
-      Friendliness
+      Przyjazność
     </div>
     <p>
-      Friendly people genuinely like other people and openly demonstrate positive feelings toward others.
-      They make friends quickly and it is easy for them to form close, intimate relationships.
-      Low scorers on Friendliness are not necessarily cold and hostile, but they do not reach out to others and are perceived as distant and reserved.
+      Przyjacielskie osoby prawdziwie lubią innych ludzi i otwarcie wyrażają pozytywne uczucia wobec innych.
+      Szybko nawiązują przyjaźnie, a dla nich łatwo jest tworzyć bliskie, intymne relacje.
+      Osoby o niskim wyniku w przyjazności niekoniecznie są zimne i wrogie, ale nie nawiązują kontaktu z innymi i są postrzegane jako zdystansowane i powściągliwe.
     </p>
 
     <div class="title">
-      Gregariousness
+      Towarzyskość
     </div>
     <p>
-      Gregarious people find the company of others pleasantly stimulating and rewarding.
-      They enjoy the excitement of crowds. Low scorers tend to feel overwhelmed by, and therefore actively avoid, large crowds.
-      They do not necessarily dislike being with people sometimes, but their need for privacy and time to themselves is much greater than for individuals who score high on this scale.
+      Towarzyskie osoby uważają towarzystwo innych za przyjemnie stymulujące i satysfakcjonujące.
+      Cieszą się ekscytacją tłumu. Osoby o niskim wyniku tendują do odczuwania przytłoczenia i aktywnie unikają dużych tłumów.
+      Niekoniecznie nie lubią czasem być wśród ludzi, ale ich potrzeba prywatności i czasu dla siebie jest znacznie większa niż dla jednostek o wysokim wyniku w tej skali.
     </p>
 
     <div class="title">
-      Assertiveness
+      Asertywność
     </div>
     <p>
-      High scorers Assertiveness like to speak out, take charge, and direct the activities of others.
-      They tend to be leaders in groups.
-      Low scorers tend not to talk much and let others control the activities of groups.
+      Osoby o wysokim wyniku w asertywności lubią zabierać głos, przejąć kontrolę i kierować działaniami innych.
+      Zazwyczaj są liderami w grupach.
+      Osoby o niskim wyniku zazwyczaj nie rozmawiają zbyt wiele i pozwalają innym kontrolować działania grupy.
     </p>
 
     <div class="title">
-      Activity Level
+      Poziom Aktywności
     </div>
     <p>
-      Active individuals lead fast-paced, busy lives.
-      They move about quickly, energetically, and vigorously, and they are involved in many activities.
-      People who score low on this scale follow a slower and more leisurely, relaxed pace.
+      Aktywne jednostki prowadzą życie szybkie, intensywne i pełne aktywności.
+      Poruszają się szybko, energetycznie i żywiołowo, zaangażowane są w wiele działań.
+      Osoby o niskim wyniku w tej skali podążają wolniejszym, bardziej spokojnym tempem.
     </p>
 
     <div class="title">
-      Excitement-Seeking
+      Poszukiwanie Ekscytacji
     </div>
     <p>
-      High scorers on this scale are easily bored without high levels of stimulation.
-      They love bright lights and hustle and bustle.
-      They are likely to take risks and seek thrills.
-      Low scorers are overwhelmed by noise and commotion and are adverse to thrill-seeking.
+      Osoby o wysokim wyniku w tej skali łatwo się nudzą bez wysokich poziomów stymulacji.
+      Uwielbiają jasne światła i zgiełk.
+      Skłonne są do podejmowania ryzyka i poszukiwania emocji.
+      Osoby o niskim wyniku są przytłoczone hałasem i zamieszaniem oraz unikają poszukiwania ekscytacji.
     </p>
 
     <div class="title">
-      Cheerfulness
+      Radość
     </div>
     <p>
-      This scale measures positive mood and feelings, not negative emotions (which are a part of the Neuroticism domain).
-      Persons who score high on this scale typically experience a range of positive feelings, including happiness, enthusiasm, optimism, and joy.
-      Low scorers are not as prone to such energetic, high spirits.
+      Ta skala mierzy pozytywne nastroje i uczucia, a nie negatywne emocje (które są częścią obszaru Neurotyczności).
+      Osoby o wysokim wyniku w tej skali zazwyczaj doświadczają różnych pozytywnych uczuć, takich jak szczęście, entuzjazm, optymizm i radość.
+      Osoby o niskim wyniku nie są tak podatne na takie energiczne, radosne duchy.
     </p>`
   },
-  conscientiousnessPage: {
-    quote: 'Conscientiousness is a tendency to display self-discipline, act dutifully, and strive for achievement against measures or outside expectations. It is related to the way in which people control, regulate, and direct their impulses.',
+conscientiousnessPage: {
+    quote: 'Sumienie to skłonność do wykazywania samodyscypliny, działania sumiennie i dążenia do osiągnięć według określonych miar lub oczekiwań zewnętrznych. Jest związane z kontrolowaniem, regulowaniem i kierowaniem impulsami ludzkimi.',
     text1: `
     <p>
-      Conscientiousness concerns the way in which we control, regulate, and direct our impulses.
+      Sumienie dotyczy sposobu, w jaki kontrolujemy, regulujemy i kierujemy naszymi impulsami.
     </p>
     <p>
-      Impulses are not inherently bad; occasionally time constraints require a snap decision, and acting on our first impulse can be an effective response.
-      Also, in times of play rather than work, acting spontaneously and impulsively can be fun.
-      Impulsive individuals can be seen by others as colorful, fun-to-be-with, and zany.
-      Nonetheless, acting on impulse can lead to trouble in a number of ways.
-      Some impulses are antisocial.
+      Impulsy same w sobie nie są złe; czasami ograniczenia czasowe wymagają szybkiej decyzji, a działanie według pierwszego impulsu może być skuteczną reakcją.
+      Ponadto, w czasie zabawy, a nie pracy, działanie spontaniczne i impulsywne może być zabawne.
+      Osoby impulsywne mogą być postrzegane przez innych jako barwne, przyjemne w kontakcie i zwariowane.
+      Niemniej jednak działanie według impulsu może prowadzić do kłopotów na wiele sposobów.
+      Niektóre impulsy są antyspołeczne.
     </p>
     `,
     text2: `
     <p>
-      Uncontrolled antisocial acts not only harm other members of society, but also can result in retribution toward the perpetrator of such impulsive acts.
-      Another problem with impulsive acts is that they often produce immediate rewards but undesirable, long-term consequences.
-      Examples include excessive socializing that leads to being fired from one's job, hurling an insult that causes the breakup of an important relationship, or using pleasure-inducing drugs that eventually destroy one's health.
-      Impulsive behavior, even when not seriously destructive, diminishes a person's effectiveness in significant ways.
-      Acting impulsively disallows contemplating alternative courses of action, some of which would have been wiser than the impulsive choice.
-      Impulsivity also sidetracks people during projects that require organized sequences of steps or stages.
-      Accomplishments of an impulsive person are therefore small, scattered, and inconsistent.
-      A hallmark of intelligence, what potentially separates human beings from earlier life forms, is the ability to think about future consequences before acting on an impulse.
-      Intelligent activity involves contemplation of long-range goals, organizing and planning routes to these goals, and persisting toward one's goals in the face of short-lived impulses to the contrary.
-      The idea that intelligence involves impulse control is nicely captured by the term prudence, an alternative label for the Conscientiousness domain.
-      Prudent means both wise and cautious.
-      Persons who score high on the Conscientiousness scale are, in fact, perceived by others as intelligent.
-      The benefits of high conscientiousness are obvious.
-      Conscientious individuals avoid trouble and achieve high levels of success through purposeful planning and persistence.
-      They are also positively regarded by others as intelligent and reliable.
-      On the negative side, they can be compulsive perfectionists and workaholics.
-      Furthermore, extremely conscientious individuals might be regarded as stuffy and boring.
-      Unconscientious people may be criticized for their unreliability, lack of ambition, and failure to stay within the lines, but they will experience many short-lived pleasures and they will never be called stuffy.
+      Niekontrolowane akty antyspołeczne szkodzą nie tylko innym członkom społeczeństwa, ale również mogą prowadzić do odwetu wobec sprawcy takich impulsywnych działań.
+      Kolejnym problemem związanym z impulsywnymi aktami jest to, że często przynoszą one natychmiastowe nagrody, ale niepożądane, długoterminowe konsekwencje.
+      Przykłady obejmują nadmierny kontakty towarzyskie, które prowadzą do utraty pracy, rzucanie obelg, które powodują zerwanie istotnych relacji, czy używanie środków uzależniających, które ostatecznie niszczą zdrowie.
+      Zachowanie impulsywne, nawet gdy nie jest poważnie destrukcyjne, zmniejsza skuteczność osoby w istotny sposób.
+      Działanie impulsywne uniemożliwia rozważenie alternatywnych działań, z których niektóre mogłyby być mądrzejsze niż impulsywny wybór.
+      Impulsywność również odbija się na ludziach podczas projektów wymagających zorganizowanych sekwencji kroków lub etapów.
+      Osiągnięcia osoby impulsywnej są zatem małe, rozproszone i niespójne.
+      Znak rozpoznawczy inteligencji, to co potencjalnie oddziela ludzi od wcześniejszych form życia, to zdolność myślenia o przyszłych konsekwencjach przed podjęciem impulsu.
+      Inteligentna aktywność obejmuje rozważanie długoterminowych celów, organizowanie i planowanie tras do tych celów oraz wytrwałość w dążeniu do swoich celów pomimo krótkotrwałych impulsów przeciwnych.
+      Pomysł, że inteligencja obejmuje kontrolę impulsów, jest pięknie uchwycony przez termin roztropność, alternatywną nazwę dla obszaru Sumienia.
+      Roztropność oznacza zarówno mądrość, jak i ostrożność.
+      Osoby, które uzyskują wysokie wyniki w skali Sumienia, są faktycznie postrzegane przez innych jako inteligentne.
+      Korzyści wynikające z wysokiego sumienia są oczywiste.
+      Sumienne osoby unikają kłopotów i osiągają wysokie poziomy sukcesu dzięki celowemu planowaniu i wytrwałości.
+      Są także pozytywnie postrzegane przez innych jako inteligentne i godne zaufania.
+      Z negatywnej strony, mogą być kompulsywnymi perfekcjonistami i pracoholikami.
+      Ponadto, osoby niezwykle sumienne mogą być postrzegane jako sztywne i nudne.
+      Osoby nieświadome sumienia mogą być krytykowane za ich niepewność, brak ambicji i niezdolność do trzymania się reguł, ale będą doświadczać wielu krótkotrwałych przyjemności i nigdy nie zostaną nazwane sztywnymi.
     </p>
 
     <div class="title">
-      Self-Efficacy
+      Pewność Siebie
     </div>
     <p>
-      Self-Efficacy describes confidence in one's ability to accomplish things. High scorers believe they have the intelligence (common sense), drive, and self-control necessary for achieving success. Low scorers do not feel effective, and may have a sense that they are not in control of their lives.
+      Pewność siebie opisuje pewność w swojej zdolności do osiągania rzeczy. Osoby o wysokich wynikach wierzą, że posiadają wystarczającą inteligencję (zdrowy rozsądek), determinację i samokontrolę niezbędną do osiągnięcia sukcesu. Osoby o niskich wynikach nie czują się skuteczne i mogą mieć poczucie, że nie kontrolują swojego życia.
     </p>
 
     <div class="title">
-      Orderliness
+      Porządkowanie
     </div>
     <p>
-      Persons with high scores on orderliness are well-organized. They like to live according to routines and schedules. They keep lists and make plans. Low scorers tend to be disorganized and scattered.
+      Osoby z wysokimi wynikami w porządkowaniu są dobrze zorganizowane. Lubią żyć według rutyn i harmonogramów. Tworzą listy i tworzą plany. Osoby o niskich wynikach mają tendencję do bycia niezorganizowanymi i rozproszonymi.
     </p>
 
     <div class="title">
-      Dutifulness
+      Sumienność
     </div>
     <p>
-      This scale reflects the strength of a person's sense of duty and obligation. Those who score high on this scale have a strong sense of moral obligation. Low scorers find contracts, rules, and regulations overly confining. They are likely to be seen as unreliable or even irresponsible.
+      Ta skala odzwierciedla siłę poczucia obowiązku i zobowiązania osoby. Ci, którzy osiągają wysokie wyniki w tej skali, mają silne poczucie obowiązku moralnego. Osoby o niskich wynikach uważają, że umowy, zasady i regulacje są zbyt ograniczające. Mogą być postrzegane jako nierzetelne lub nawet nieodpowiedzialne.
     </p>
 
     <div class="title">
-      Achievement-Striving
+      Dążenie do Osiągnięć
     </div>
     <p>
-      Individuals who score high on this scale strive hard to achieve excellence. Their drive to be recognized as successful keeps them on track toward their lofty goals. They often have a strong sense of direction in life, but extremely high scores may be too single-minded and obsessed with their work. Low scorers are content to get by with a minimal amount of work, and might be seen by others as lazy.
+      Osoby, które osiągają wysokie wyniki w tej skali, bardzo się starają osiągnąć doskonałość. Ich dążenie do uznania za sukces utrzymuje ich na kursie ku swoim wysokim celom. Często mają silne poczucie kierunku w życiu, ale osoby o niezwykle wysokich wynikach mogą być zbyt jednowymiarowe i obsesyjne w swojej pracy. Osoby o niskich wynikach zadowalają się minimalną ilością pracy i mogą być postrzegane przez innych jako leniwe.
     </p>
 
     <div class="title">
-      Self-Discipline
+      Samodyscyplina
     </div>
     <p>
-      Self-discipline-what many people call will-power-refers to the ability to persist at difficult or unpleasant tasks until they are completed. People who possess high self-discipline are able to overcome reluctance to begin tasks and stay on track despite distractions. Those with low self-discipline procrastinate and show poor follow-through, often failing to complete tasks-even tasks they want very much to complete.
+      Samodyscyplina – to, co wielu ludzi nazywa wolą – odnosi się do zdolności do wytrwania przy trudnych lub nieprzyjemnych zadaniach, aż do ich ukończenia. Osoby o wysokiej samodyscyplinie są w stanie przezwyciężyć opór przed rozpoczęciem zadań i utrzymać się na kursie pomimo rozproszeń. Osoby o niskiej samodyscyplinie odkładają sprawy na później i wykazują słabą konsekwencję, często nie udając się do końca nawet z zadaniami, które bardzo chcą ukończyć.
     </p>
 
     <div class="title">
-      Cautiousness
+      Ostrożność
     </div>
     <p>
-      Cautiousness describes the disposition to think through possibilities before acting. High scorers on the Cautiousness scale take their time when making decisions. Low scorers often say or do first thing that comes to mind without deliberating alternatives and the probable consequences of those alternatives.
+      Ostrożność opisuje skłonność do przemyślenia możliwości przed podjęciem działania. Osoby z wysokimi wynikami w skali ostrożności zastanawiają się nad decyzjami, zanim je podejmą. Osoby z niskimi wynikami często mówią lub robią pierwsze rzeczy, które przychodzą im na myśl, nie zastanawiając się nad alternatywami i prawdopodobnymi konsekwencjami tych alternatyw.
     </p>
     `
   },
   agreeablenessPage: {
-    quote: 'Agreeableness reflects individual differences in concern with cooperation and social harmony.',
+    quote: 'Uprzejmość odzwierciedla indywidualne różnice w trosce o współpracę i harmonię społeczną.',
     text1: `<p>
-      Agreeableness reflects individual differences in concern with cooperation and social harmony. Agreeable individuals value getting along with others.
+      Uprzejmość odzwierciedla indywidualne różnice w trosce o współpracę i harmonię społeczną. Osoby uprzejme cenią sobie dobre stosunki z innymi.
     </p>
     <p>
-      They are therefore considerate, friendly, generous, helpful, and willing to compromise their interests with others'.
-      Agreeable people also have an optimistic view of human nature.
-      They believe people are basically honest, decent, and trustworthy.
-      Disagreeable individuals place self-interest above getting along with others.
-      They are generally unconcerned with others' well-being, and therefore are unlikely to extend themselves for other people.
-      Sometimes their skepticism about others' motives causes them to be suspicious, unfriendly, and uncooperative.
+      Są zatem uprzejme, przyjazne, hojne, pomocne i skłonne do kompromisów w swoich interesach na rzecz innych. 
+      Ludzie uprzejmi mają również optymistyczne podejście do ludzkiej natury.
+      Wierzą, że ludzie są zasadniczo uczciwi, przyzwoici i godni zaufania. 
+      Osoby nieuprzejme stawiają swoje własne interesy ponad współpracą z innymi.
+      Zazwyczaj nie przejmują się dobrem innych i dlatego nie są skłonne poświęcać się dla innych.
+      Czasami ich sceptycyzm co do motywacji innych sprawia, że są podejrzliwe, nieprzyjazne i niechętne do współpracy.
     </p>`,
     text2: `<p>
-      Agreeableness is obviously advantageous for attaining and maintaining popularity.
-      Agreeable people are better liked than disagreeable people.
-      On the other hand, agreeableness is not useful in situations that require tough or absolute objective decisions.
-      Disagreeable people can make excellent scientists, critics, or soldiers.
+      Oczywiste jest, że uprzejmość jest korzystna dla zdobywania i utrzymywania popularności.
+      Osoby uprzejme są lepiej lubiane niż osoby nieuprzejme.
+      Z drugiej strony, uprzejmość nie jest przydatna w sytuacjach, które wymagają trudnych lub bezwzględnych decyzji.
+      Osoby nieuprzejme mogą być doskonałymi naukowcami, krytykami lub żołnierzami.
     </p>
 
     <div class="title">
-      Trust
+      Zaufanie
     </div>
     <p>
-      A person with high trust assumes that most people are fair, honest, and have good intentions. Persons low in trust see others as selfish, devious, and potentially dangerous.
+      Osoba o wysokim zaufaniu zakłada, że większość ludzi jest sprawiedliwa, uczciwa i ma dobre intencje. Osoby o niskim zaufaniu widzą innych jako egoistycznych, przebiegłych i potencjalnie niebezpiecznych.
     </p>
 
     <div class="title">
-      Morality
+      Moralność
     </div>
     <p>
-      High scorers on this scale see no need for pretense or manipulation when dealing with others and are therefore candid, frank, and sincere. Low scorers believe that a certain amount of deception in social relationships is necessary. People find it relatively easy to relate to the straightforward high-scorers on this scale. They generally find it more difficult to relate to the unstraightforward low-scorers on this scale. It should be made clear that low scorers are not unprincipled or immoral; they are simply more guarded and less willing to openly reveal the whole truth.
+      Osoby o wysokim wyniku na tej skali nie widzą potrzeby pozorów czy manipulacji w kontaktach z innymi i są z tego powodu szczere, otwarte i prawdziwe. Osoby o niskim wyniku uważają, że pewna ilość oszustwa w relacjach społecznych jest konieczna. Ludzie łatwo się identyfikują z bezpośrednimi osobami o wysokim wyniku na tej skali. Zazwyczaj trudniej jest się identyfikować z nieuczciwymi osobami o niskim wyniku na tej skali. Należy jasno stwierdzić, że osoby o niskim wyniku nie są niezasadne ani niemoralne; po prostu są bardziej ostrożne i mniej skłonne otwarcie ujawniać całą prawdę.
     </p>
 
     <div class="title">
-      Alturism
+      Altruizm
     </div>
     <p>
-      Altruistic people find helping other people genuinely rewarding. Consequently, they are generally willing to assist those who are in need. Altruistic people find that doing things for others is a form of self-fulfillment rather than self-sacrifice. Low scorers on this scale do not particularly like helping those in need. Requests for help feel like an imposition rather than an opportunity for self-fulfillment.
+      Osoby altruistyczne uważają pomaganie innym za prawdziwie satysfakcjonujące. W związku z tym są zazwyczaj skłonne pomagać tym, którzy tego potrzebują. Osoby altruistyczne uważają, że pomaganie innym to forma samorealizacji, a nie poświęcenia. Osoby o niskim wyniku na tej skali niekoniecznie lubią pomagać potrzebującym. Prośby o pomoc są dla nich raczej uciążliwe niż okazją do samorealizacji.
     </p>
 
     <div class="title">
-      Cooperation
+      Współpraca
     </div>
     <p>
-      Individuals who score high on this scale dislike confrontations. They are perfectly willing to compromise or to deny their own needs in order to get along with others. Those who score low on this scale are more likely to intimidate others to get their way.
+      Osoby uzyskujące wysoki wynik na tej skali nie lubią konfrontacji. Są całkowicie skłonne do kompromisów lub rezygnacji ze swoich potrzeb, aby dogadać się z innymi. Ci, którzy uzyskują niski wynik na tej skali, są bardziej skłonni zastraszać innych, aby osiągnąć swoje cele.
     </p>
 
     <div class="title">
-      Modesty
+      Skromność
     </div>
     <p>
-      High scorers on this scale do not like to claim that they are better than other people. In some cases this attitude may derive from low self-confidence or self-esteem. Nonetheless, some people with high self-esteem find immodesty unseemly. Those whoare willing to describe themselves as superior tend to be seen as disagreeably arrogant by other people.
+      Osoby o wysokim wyniku na tej skali nie lubią twierdzić, że są lepsze od innych. W niektórych przypadkach ta postawa może wynikać z niskiej pewności siebie lub samooceny. Niemniej jednak niektórzy ludzie o wysokiej samoocenie uważają skromność za nieprzystojną. Ci, którzy są skłonni opisywać siebie jako lepszych, są zazwyczaj postrzegani przez innych jako nieprzyjemnie zarozumiali.
     </p>
 
     <div class="title">
-      Sympathy
+      Współczucie
     </div>
     <p>
-      People who score high on this scale are tenderhearted and compassionate. They feel the pain of others vicariously and are easily moved to pity. Low scorers are not affected strongly by human suffering. They pride themselves on making objective judgments based on reason. They are more concerned with truth and impartial justice than with mercy.
+      Osoby uzyskujące wysoki wynik na tej skali są czułe i pełne współczucia. Odczuwają cierpienie innych w sposób empatyczny i łatwo poruszają się do litości. Osoby o niskim wyniku nie są silnie dotknięte cierpieniem ludzkim. Dumnie kierują się obiektywnymi osądami opartymi na rozumie. Zależy im bardziej na prawdzie i bezstronnej sprawiedliwości niż na litości.
     </p>
     `
   }
+
 }
