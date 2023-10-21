@@ -186,7 +186,7 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   getResult: {
     result: 'Wynik',
     explanation: 'Jeśli wykonywałeś już test i zapisałeś ID, możesz zobaczyć wynik po wpisaniu otrzymanego ID',
-    idInput: 'w pole wprowadzania ID',
+    idInput: 'w pole wprowadzania',
     urlOrId: 'URL lub ID Twojego wyniku',
     getResult: 'Otrzymaj wynik',
     viewPrevious: 'Wyświetl poprzedni wynik'

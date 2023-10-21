@@ -72,6 +72,7 @@ export default {
 .footer-text {
   font-family: 'Didact Gothic', sans-serif;
   color: #b3b3b3;
+  text-align: center;
 }
 
 .footer-text a {

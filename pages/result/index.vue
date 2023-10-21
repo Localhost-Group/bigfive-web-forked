@@ -2,32 +2,16 @@
   <div>
     <h1>{{ $t('getResult.result') }}</h1>
     <div class="body-text">
-      {{ $t('getResult.explanation') }} <span class="font-italic secondary--text">58a70606a835c400c8b38e84</span> {{ $t('getResult.idInput') }}
+      {{ $t('getResult.explanation') }} {{ $t('getResult.idInput') }}
       <br>
-      <v-text-field
-        v-model="id"
-        class="pt-5"
-        label="ID"
-        hide-details="auto"
-        :placeholder="$t('getResult.urlOrId')"
-        :rules="[rules.valid]"
-      />
+      <v-text-field v-model="id" class="pt-5" label="ID" hide-details="auto" :placeholder="$t('getResult.urlOrId')"
+        :rules="[rules.valid]" />
       <v-card-actions>
         <v-spacer />
-        <v-btn
-          v-if="resultId"
-          color="secondary"
-          :to="localePath(`/result/${resultId}`)"
-          large
-        >
+        <v-btn v-if="resultId" color="secondary" :to="localePath(`/result/${resultId}`)" large>
           {{ $t('getResult.viewPrevious') }}
         </v-btn>
-        <v-btn
-          color="primary"
-          :to="localePath('/result/' + formatId(id))"
-          large
-          :disabled="!validMongoId(formatId(id))"
-        >
+        <v-btn color="primary" :to="localePath('/result/' + formatId(id))" large :disabled="!validMongoId(formatId(id))">
           {{ $t('getResult.getResult') }}
         </v-btn>
       </v-card-actions>
@@ -47,7 +31,7 @@ export default {
       valid: value => validMongoId(formatId(value)) || 'Not a valid ID'
     }
   }),
-  head () {
+  head() {
     return {
       title: this.$t('results.seo.title'),
       meta: [
@@ -62,7 +46,7 @@ export default {
       ]
     }
   },
-  mounted () {
+  mounted() {
     if (validMongoId(localStorage.getItem('resultId'))) {
       this.resultId = localStorage.getItem('resultId')
     }
