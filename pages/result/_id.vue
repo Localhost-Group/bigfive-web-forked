@@ -57,7 +57,6 @@ export default {
   async asyncData({ params, store, $axios, query }) {
     try {
       const lang = query.lang ? `/${query.lang}` : ''
-      // const url = process.env.API_URL + 'result/' + params.id + lang
       const url = 'https://bigfive.campusai.pl/api/' + 'result/' + params.id + lang
       const data = await $axios.$get(url)
 

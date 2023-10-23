@@ -4,15 +4,9 @@
       <div class="text-right">
         <ShareLinks :id="'compare/' + $route.params.id" />
       </div>
-      <h1>Overview</h1>
-      <BarChartCompare
-        :data="result"
-        :max="Number(120)"
-      />
-      <div
-        v-for="domain in result"
-        :key="domain.id"
-      >
+      <h1>Rezultat</h1>
+      <BarChartCompare :data="result" :max="Number(120)" />
+      <div v-for="domain in result" :key="domain.id">
         <DomainCompare :domain="domain" />
       </div>
     </div>
@@ -28,9 +22,9 @@
 <script>
 export default {
   name: 'CompareResult',
-  async asyncData ({ params, store, $axios }) {
+  async asyncData({ params, store, $axios }) {
     try {
-      const result = await $axios.$get(process.env.API_URL + 'compare/' + params.id)
+      const result = await $axios.$get('https://bigfive.campusai.pl/api/' + 'compare/' + params.id)
       return { result }
     } catch (error) {
       store.commit('SET_SNACKBAR', { msg: error.message, type: 'error' })
@@ -58,7 +52,7 @@ export default {
       { name: 'twitter:image:alt', content: 'BigFive logo' }
     ]
   }),
-  mounted () {
+  mounted() {
     this.$amplitude.getInstance().logEvent('b5.test', { part: 'compare' })
   }
 }

@@ -49,6 +49,7 @@ export default {
     items() {
       return [
         { title: this.$t('toolbar.result'), url: '/result' },
+        { title: this.$t('toolbar.compare'), url: '/compare' },
         { title: this.$t('toolbar.privacy'), url: 'https://app.campusai.pl/privacy' }
       ]
     }
