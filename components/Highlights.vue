@@ -1,49 +1,20 @@
 <template>
   <v-row style="justify-content: space-around;">
-    <!-- <v-col
-      cols="3"
-      xs="3"
-      sm="3"
-      md="3"
-    >
-      <img
-        class="responsive"
-        alt="open source"
-        :src="require('@/assets/open-source.png')"
-        loading="lazy"
-      >
-      <h3 v-html="$t('frontpage.cards.open.title')" />
-      <span color="#666">{{ $t('frontpage.cards.open.text') }}</span>
-    </v-col> -->
-    <v-col
-      cols="6"
-      xs="6"
-      sm="6"
-      md="3"
-    >
-      <img
-        class="responsive"
-        alt="free"
-        :src="require('@/assets/free.png')"
-        loading="lazy"
-      >
+
+    <v-col cols="6" xs="6" sm="6" md="3">
+      <img class="responsive" alt="free" :src="require('@/assets/free.png')" loading="lazy">
       <h3 v-html="$t('frontpage.cards.free.title')" />
       <span color="#666">{{ $t('frontpage.cards.free.text') }}</span>
     </v-col>
-    <v-col
-      cols="6"
-      xs="6"
-      sm="6"
-      md="3"
-    >
-      <img
-        class="responsive"
-        alt="scientific"
-        :src="require('@/assets/scientific.png')"
-        loading="lazy"
-      >
+    <v-col cols="6" xs="6" sm="6" md="3">
+      <img class="responsive" alt="scientific" :src="require('@/assets/scientific.png')" loading="lazy">
       <h3 v-html="$t('frontpage.cards.scientific.title')" />
       <span color="#666">{{ $t('frontpage.cards.scientific.text') }}</span>
+    </v-col>
+    <v-col cols="3" xs="3" sm="3" md="3">
+      <img class="responsive" alt="open source" :src="require('@/assets/open-source.png')" loading="lazy">
+      <h3 v-html="$t('frontpage.cards.open.title')" />
+      <span color="#666">{{ $t('frontpage.cards.open.text') }}</span>
     </v-col>
     <!-- <v-col
       cols="6"

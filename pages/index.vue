@@ -58,6 +58,7 @@
             <nuxt-link :to="localePath('neuroticism')">
               {{ $t('facets.neuroticism.title') }}
             </nuxt-link>
+            {{ $t('frontpage.compare.text3') }}
           </p>
           <!-- <p>
             <v-btn outlined

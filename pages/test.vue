@@ -3,6 +3,15 @@
     <LazyFormLanguage v-if="!form.language" />
     <div v-else>
       <v-row>
+        <p>Zostaw swój adres e-mail, a my prześlemy Ci za darmo dodatkowe materiały, które pomogą Ci maksymalnie
+          wykorzystać
+          swoją wiedzę o sobie w pracy z AI.</p>
+        <p>
+          Jeżeli chcesz więcej dołącz do naszej dynamicznie rozwijającej się społeczności w CampusAI, gdzie w ramach
+          programu Me+AI możesz rozwinąć swoje umiejętności i zacząć pracować z najnowszymi technologiami AI w ramach
+          współtworzonej generatywnej dzielnicy. Więcej informacji znajdziesz na <a href="www.campusai.pl"
+            target="_blank">www.campusai.pl</a>
+        </p>
         <v-col v-if="!testStarted" cols="10" class="pa-0">
           <v-text-field v-model="userEmail" label="Podaj swój adres e-mail" type="email"></v-text-field>
         </v-col>

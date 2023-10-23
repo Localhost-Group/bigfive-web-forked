@@ -15,22 +15,23 @@ export default {
     compare: {
       title: 'Sprawdź swoją osobowość',
       text1: 'Porównaj się ze swoim partnerem, partnerką, kolegami, przyjaciółmi i rodziną.',
-      text2: 'Przeanalizuj pięć kluczowych cech charakteru, a następnie zastanów się, jak te elementy wpływają na różne aspekty Twojego życia:',
+      text2: 'Jest to naukowo udowodniony i wiarygodny model psychologiczny, który skrupulatnie analizuje Twoje cechy osobowości w pięciu kluczowych domenach:',
+      text3: '. Zrozumienie swoich predyspozycji osobowościowych to pierwszy krok do zbudowania spersonalizowanego systemu pracy ze sztuczną inteligencją (AI)',
       action: 'Zobacz'
     },
     share: 'Udostępnij test przyjaciołom i dowiedz się jak bardzo jesteście kompatybilni',
     cards: {
       open: {
-        title: 'Otwarty',
-        text: 'Projekt open-source na licencji MIT'
+        title: 'Operator',
+        text: 'Możesz wykonać ten test dzięki CampusAI, który udostępnia tą witrynę i dzieli się wiedzą na temat skutecznych technik współpracy ze sztuczną inteligencją.'
       },
       free: {
-        title: 'Darmowy',
-        text: 'Test jest całkowicie darmowy'
+        title: 'Darmowy dostęp',
+        text: 'Test Big Five jest całkowicie darmowy, co umożliwia każdemu odkrycie swoich unikatowych cech osobowości i monitorowanie zmian w czasie.'
       },
       scientific: {
-        title: 'Naukowy',
-        text: 'BigFive jest udowodnionym naukowo i wiarygodnym modelem psychologicznym.'
+        title: 'Naukowe Podstawy',
+        text: 'Big Five to udowodniony naukowo model, oparty na solidnych badaniach psychologicznych, oferujący wiarygodny wgląd w Twoją osobowość.'
       },
       translated: {
         title: 'Przetłumaczony',
@@ -38,13 +39,13 @@ export default {
       }
     },
     description: {
-      top: 'Poznaj siebie dzięki darmowemu, open-source\'owemu testowi osobowości.',
+      top: 'Chcesz nauczyć się współpracy ze sztuczną inteligencją? Wykonaj test Big Five i rozpocznij swoją podróż do świata AI więdząc dokładnie jak dopasować narzędzia do swojej osobowości. ',
       subtop: '',
       subtop2: 'jest najbardziej wiarygodnym i naukowo potwierdzonym modelem psychologicznym opisującym osobowość.',
       reference: `Testy i ocena użyte na tej stronie pochodzą z
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
-      info: 'Następujący test zawiera 120 pytań. Odpowiedź na wszystkie zajmuje ok. 10 minut.',
+      info: 'Zachęcamy Cię do wykonania testu Big Five i odkrycia, jak możesz zbudować system współpracy ze sztuczną inteligencją, który jest idealnie dopasowany do Twojej osobowości!',
       result: 'Kiedy wypełnisz test, otrzymasz szczegółowy opis Twojej osobowości obejmujący pięć czynników:',
       tests_taken: 'dotychczasowe testy'
     }
