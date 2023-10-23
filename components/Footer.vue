@@ -20,10 +20,12 @@
         96000 Sibu, Sarawak, Malaysia<br><br>
         <a href="mailto:wg@glows.my">wg@glows.my</a><br> -->
       </v-col>
-      <v-col class="footer-text" cols="12">
-        © {{ new Date().getFullYear() }} — Campus AI.
+      <v-col class="footer-text" cols="12"> © {{ new Date().getFullYear() }} — <a href="http://www.campusai.pl"
+          target="_blank">CampusAI.pl</a>, under the <a href="https://en.wikipedia.org/wiki/MIT_License"
+          target="_blank">MIT license</a>. Credits to <a href="https://github.com/rubynor" target="_blank">Rubynor AS</a>
+        <!-- © {{ new Date().getFullYear() }} — Campus AI.
         Strona korzysta z projektu BigFive stworzonego przez <a href="https://github.com/rubynor"
-          target="_blank">rubynor</a>
+          target="_blank">rubynor</a> -->
       </v-col>
     </v-row>
   </v-footer>
