@@ -3,15 +3,11 @@
     <h1>{{ $t('getCompare.title') }}</h1>
     <div class="body-text">
       <p>{{ $t('getCompare.description1') }}</p>
-      <p>{{ $t('getCompare.description2') }} <span class="font-italic secondary--text">58a70606a835c400c8b38e84</span> {{ $t('getCompare.description3') }}</p>
+      <!-- <p>{{ $t('getCompare.description2') }} <span class="font-italic secondary--text">58a70606a835c400c8b38e84</span> {{ $t('getCompare.description3') }}</p> -->
       <br>
 
       <v-list-item-group>
-        <v-list-item
-          v-for="(person, i) in people"
-          :key="i"
-          two-line
-        >
+        <v-list-item v-for="(person, i) in people" :key="i" two-line>
           <v-list-item-avatar>
             <v-icon large>
               {{ mdiAccount }}
@@ -21,10 +17,7 @@
             <v-list-item-title v-text="person.name" />
             <v-list-item-subtitle v-text="person.id" />
           </v-list-item-content>
-          <v-btn
-            icon
-            @click="delPerson(i)"
-          >
+          <v-btn icon @click="delPerson(i)">
             <v-icon>{{ mdiDelete }}</v-icon>
           </v-btn>
         </v-list-item>
@@ -32,22 +25,14 @@
           <v-list-item-content>
             {{
               people.length === 0
-                ? $t('getCompare.needToAddPeople')
-                : $t('getCompare.addAnother')
+              ? $t('getCompare.needToAddPeople')
+              : $t('getCompare.addAnother')
             }}
           </v-list-item-content>
 
-          <v-dialog
-            v-model="dialog"
-            width="500"
-          >
+          <v-dialog v-model="dialog" width="500">
             <template #activator="{ on }">
-              <v-btn
-                color="primary"
-                dark
-                small
-                v-on="on"
-              >
+              <v-btn color="primary" dark small v-on="on">
                 <v-icon>{{ mdiPlus }}</v-icon>
                 {{ $t('getCompare.addPerson') }}
               </v-btn>
@@ -59,35 +44,17 @@
               </v-card-title>
 
               <v-card-text>
-                <v-form
-                  ref="form"
-                  v-model="isFormValid"
-                >
-                  <v-text-field
-                    v-model="name"
-                    class="mt-5"
-                    :label="$t('getCompare.name')"
-                    :rules="[rules.uniqueName]"
-                    autofocus
-                    :placeholder="$t('getCompare.nameOfPerson')"
-                  />
+                <v-form ref="form" v-model="isFormValid">
+                  <v-text-field v-model="name" class="mt-5" :label="$t('getCompare.name')" :rules="[rules.uniqueName]"
+                    autofocus :placeholder="$t('getCompare.nameOfPerson')" />
 
-                  <v-text-field
-                    v-model="id"
-                    label="ID"
-                    :rules="[rules.validId]"
-                    :placeholder="$t('getCompare.urlOrId')"
-                  />
+                  <v-text-field v-model="id" label="ID" :rules="[rules.validId]"
+                    :placeholder="$t('getCompare.urlOrId')" />
                 </v-form>
 
                 <v-card-actions>
                   <v-spacer />
-                  <v-btn
-                    color="secondary"
-                    fab
-                    :disabled="!isFormValid"
-                    @click="addPerson"
-                  >
+                  <v-btn color="secondary" fab :disabled="!isFormValid" @click="addPerson">
                     <v-icon>{{ mdiPlus }}</v-icon>
                   </v-btn>
                 </v-card-actions>
@@ -99,12 +66,7 @@
 
       <v-card-actions class="mt-8">
         <v-spacer />
-        <v-btn
-          :disabled="!(people.length > 1)"
-          color="secondary"
-          large
-          @click="compare"
-        >
+        <v-btn :disabled="!(people.length > 1)" color="secondary" large @click="compare">
           {{ $t('getCompare.comparePeople') }}
         </v-btn>
       </v-card-actions>
@@ -143,17 +105,17 @@ export default {
   methods: {
     validMongoId: validMongoId,
     formatId: formatId,
-    delPerson (i) {
+    delPerson(i) {
       this.people.splice(i, 1)
     },
-    addPerson () {
+    addPerson() {
       this.people.push({ name: this.name, id: formatId(this.id) })
       this.name = ''
       this.id = ''
       this.dialog = false
       this.$refs.form.reset()
     },
-    compare () {
+    compare() {
       const id = base64url(JSON.stringify(this.people))
       this.$router.push(this.localePath({ path: `/compare/${id}` }))
     }

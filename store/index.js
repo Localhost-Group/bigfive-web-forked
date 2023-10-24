@@ -176,8 +176,15 @@ export const actions = {
       const answers = context.state.test.answers
 
       const userEmail = localStorage.getItem('userEmail');
+      let optionalCheckbox = localStorage.getItem('optionalCheckbox');
+      if (!optionalCheckbox) {
+        optionalCheckbox = false;
+      }
+      const requiredCheckbox = localStorage.getItem('requiredCheckbox');
 
       const result = {
+        optionalCheckbox: optionalCheckbox,
+        requiredCheckbox: requiredCheckbox,
         email: userEmail,
         testId: getInfo.shortId,
         lang: context.state.form.language,
@@ -186,10 +193,12 @@ export const actions = {
         timeElapsed: elapsedTimeInSeconds(context.state.test.testStart),
         dateStamp: Date.now()
       }
+      // const { id } = await this.$axios.$post('http://localhost:4000/api/' + 'save', result)
 
       const { id } = await this.$axios.$post('https://bigfive.campusai.pl/api/' + 'save', result)
       localStorage.removeItem('userEmail');
-      console.log(process.env.API_URL)
+      localStorage.removeItem('optionalCheckbox');
+      localStorage.removeItem('requiredCheckbox');
       localStorage.setItem('resultId', id)
 
       context.commit('RESET_STATE')

@@ -3,20 +3,34 @@
     <LazyFormLanguage v-if="!form.language" />
     <div v-else>
       <v-row>
-        <p>Zostaw swój adres e-mail, a my prześlemy Ci za darmo dodatkowe materiały, które pomogą Ci maksymalnie
+        <p v-if="!testStarted">Zostaw swój adres e-mail, a my prześlemy Ci za darmo dodatkowe materiały, które pomogą Ci
+          maksymalnie
           wykorzystać
           swoją wiedzę o sobie w pracy z AI.</p>
-        <p>
+        <p v-if="!testStarted">
           Jeżeli chcesz więcej dołącz do naszej dynamicznie rozwijającej się społeczności w CampusAI, gdzie w ramach
           programu Me+AI możesz rozwinąć swoje umiejętności i zacząć pracować z najnowszymi technologiami AI w ramach
           współtworzonej generatywnej dzielnicy. Więcej informacji znajdziesz na <a href="www.campusai.pl"
             target="_blank">www.campusai.pl</a>
         </p>
+        <v-col cols="12" v-if="!testStarted">
+          <div class="my-input">
+            <input v-model="requiredCheckbox" type="checkbox" id="requiredCheckbox">
+            <label for="requiredCheckbox">Akceptuję politykę prywatności (wymagane)</label>
+          </div>
+        </v-col>
+        <v-col cols="12" v-if="!testStarted">
+          <div class="my-input">
+            <input v-model="optionalCheckbox" type="checkbox" id="optionalCheckbox">
+            <label for="optionalCheckbox">Wyrażam zgodę na przetwarzanie moich danych w celach marketingowych przez
+              CampusAI Prosta Spółka Akcyjna Chmielna 73, 00-801 Warszawa (opcjonalne)</label>
+          </div>
+        </v-col>
         <v-col v-if="!testStarted" cols="10" class="pa-0">
           <v-text-field v-model="userEmail" label="Podaj swój adres e-mail" type="email"></v-text-field>
         </v-col>
         <v-col v-if="!testStarted">
-          <v-btn @click="startTest" :disabled="!isValidEmail" color="#3AB54A" class="custom-start-button">
+          <v-btn @click="startTest" :disabled="!isValidEmail || !isTestReady" color="#3AB54A" class="custom-start-button">
             Rozpocznij test
           </v-btn>
         </v-col>
@@ -75,6 +89,20 @@
   box-shadow: none !important;
   border-radius: 20px;
 }
+
+.my-input {
+  display: flex;
+  align-items: center;
+}
+
+.my-input input {
+  opacity: 1;
+  margin-right: 8px;
+}
+
+.my-input label {
+  display: inline-block;
+}
 </style>
 
 <script>
@@ -89,6 +117,8 @@ export default {
     mdiRadioboxMarked,
     userEmail: '',
     testStarted: false,
+    optionalCheckbox: false,
+    requiredCheckbox: false,
   }),
   head: () => ({
     title: 'The test',
@@ -111,8 +141,18 @@ export default {
       const answers = questions.map(question => this.GET_CURRENT_ANSWER(question.id));
       return answers.every(answer => answer !== undefined);
     },
+    isTestReady() {
+      // Zwraca true tylko wtedy, gdy wymagana opcja jest zaznaczona
+      return this.requiredCheckbox;
+    },
   },
   watch: {
+    requiredCheckbox: function (newVal) {
+      localStorage.setItem('requiredCheckbox', newVal);
+    },
+    optionalCheckbox: function (newVal) {
+      localStorage.setItem('optionalCheckbox', newVal);
+    },
     'test.done': async function (testDone) {
       if (testDone) {
         this.$confetti.start({ particlesPerFrame: 0.25, particles: [{ type: 'heart' }] })
@@ -135,7 +175,7 @@ export default {
       window.innerWidth < 600 ? this.SET_ITEMS_PER_PAGE(1) : this.SET_ITEMS_PER_PAGE(3)
     },
     startTest() {
-      if (this.isValidEmail) {
+      if (this.isValidEmail && this.isTestReady) {
         localStorage.setItem('userEmail', this.userEmail);
         this.testStarted = true;
         this.$amplitude.getInstance().logEvent('b5.test', { part: 'start' });
