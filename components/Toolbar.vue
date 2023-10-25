@@ -6,7 +6,7 @@
           <nuxt-link :to="localePath('/')">
             <transition appear name="rotate">
               <v-img alt="BigFive logo" class="shrink mr-2" contain :src="logoSrc" transition="fade-transition"
-                width="100" />
+                width="200" />
             </transition>
           </nuxt-link>
         </div>
