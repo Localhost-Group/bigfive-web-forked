@@ -14,6 +14,9 @@
         <v-btn text :to="localePath('result')" class="hidden-sm-and-down text-none font-weight-regular">
           {{ $t('toolbar.see_results') }}
         </v-btn>
+        <v-btn text @click="goToCampus" class="hidden-sm-and-down text-none font-weight-regular green-btn">
+          {{ $t('toolbar.go_to_campus') }}
+        </v-btn>
         <v-menu v-model="drawer" bottom offset-y min-width="150">
           <template #activator="{ on }">
             <v-btn icon aria-label="Expand menu" v-on="on" @click="drawer = !drawer">
@@ -62,6 +65,9 @@ export default {
         this.$router.push(this.localePath(item.url));
       }
     },
+    goToCampus() {
+      window.open('https://campusai.pl/', '_blank');
+    },
   },
 }
 </script>
@@ -105,5 +111,15 @@ export default {
 
 .v-list-item:hover .v-list-item__title {
   color: inherit;
+}
+
+.green-btn {
+  background-color: #3AB54A !important;
+  border-color: #3AB54A !important;
+  border-radius: 15px;
+}
+
+.green-btn span {
+  color: white;
 }
 </style>
