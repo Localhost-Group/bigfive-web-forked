@@ -117,6 +117,7 @@ export default {
   background-color: #3AB54A !important;
   border-color: #3AB54A !important;
   border-radius: 15px;
+  margin-left: 10px;
 }
 
 .green-btn span {
