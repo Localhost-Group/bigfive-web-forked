@@ -2,22 +2,28 @@
   <div>
     <Wrapper>
       <v-row cols="12" class="py-10">
-        <v-col cols="12" xs="12" md="6" class="text-md-left text-center">
-          <h1>
+        <v-col cols="12" xs="12" md="12" class="text-md-left text-center">
+          <!-- <h1>
             {{ $t('frontpage.title') }}
-          </h1>
-          <p :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }" v-html="$t('frontpage.description.top')" />
-          <p :class="{ 'responsive-text': $vuetify.breakpoint.smAndDown }" v-html="$t('frontpage.description.info')" />
+          </h1> -->
+          <p class="text-center" :class="{ 'responsive-text': $vuetify.breakpoint.mdAndDown }"
+            v-html="$t('frontpage.description.first')" />
+          <p class="text-center" :class="{ 'responsive-text': $vuetify.breakpoint.mdAndDown }"
+            v-html="$t('frontpage.description.top')" />
+          <p class="text-center" :class="{ 'responsive-text': $vuetify.breakpoint.mdAndDown }"
+            v-html="$t('frontpage.description.info')" />
+          <div class="button-wrapper">
+            <v-btn x-large color="#3AB54A" :to="localePath('/test')" dark class="mt-7">
+              {{ $t('frontpage.call_to_action') }}
+            </v-btn>
+            <div class="ml-2 mt-2 grey--text text--darken-2 text-center" v-html="$t('frontpage.no_registration')" />
 
-          <v-btn x-large color="#3AB54A" :to="localePath('/test')" dark class="mt-7">
-            {{ $t('frontpage.call_to_action') }}
-          </v-btn>
+          </div>
           <br>
-          <div class="ml-2 mt-2 grey--text text--darken-2" v-html="$t('frontpage.no_registration')" />
         </v-col>
-        <v-col cols="12" xs="12" md="6" class="text-center">
+        <!-- <v-col cols="12" xs="12" md="6" class="text-center">
           <img class="responsive" alt="Girl infront of test" :src="require('@/assets/front.svg')">
-        </v-col>
+        </v-col> -->
       </v-row>
     </Wrapper>
     <Wrapper background="#e4e4e4">
@@ -33,14 +39,14 @@
         </v-col>
       </v-row>
     </Wrapper>
-    <Wrapper background="white">
+    <!-- <Wrapper background="white">
       <v-row cols="12" :class="{ 'flex-column-reverse': $vuetify.breakpoint.smAndDown }" class="py-10">
         <v-col cols="12" xs="12" md="6" class="text-center">
           <img class="responsive" alt="Comparing people" :src="require('@/assets/front_compare.svg')" loading="lazy">
         </v-col>
         <v-col cols="12" xs="12" md="6" class="text-md-left text-center">
           <h1 v-html="$t('frontpage.compare.title')" />
-          <!-- <p v-html="$t('frontpage.compare.text1')" /> -->
+          <p v-html="$t('frontpage.compare.text1')" />
           <p class="black--link">
             {{ $t('frontpage.compare.text2') }}
             <nuxt-link :to="localePath('openness_to_experience')">
@@ -60,21 +66,21 @@
             </nuxt-link>
             {{ $t('frontpage.compare.text3') }}
           </p>
-          <!-- <p>
+          <p>
             <v-btn outlined
               :to="localePath('/compare/W3sibmFtZSI6Ik1hcnZpbiIsImlkIjoiNThhNzA2MDZhODM1YzQwMGM4YjM4ZTg0In0seyJuYW1lIjoiQXJ0aHVyIERlbnQiLCJpZCI6IjVlNTZiYTdhYjA5NjEzMDAwN2Q1ZDZkOCJ9LHsibmFtZSI6IkZvcmQgUGVyZmVjdCIsImlkIjoiNWRlYTllODhlMTA4Y2IwMDYyMTgzYWYzIn0seyJuYW1lIjoiU2xhcnRpYmFydGZhc3QiLCJpZCI6IjVlNTZiNjUwYjA5NjEzMDAwN2Q1ZDZkMCJ9XQ%3D%3D')">
               {{ $t('frontpage.compare.action') }}
             </v-btn>
-          </p> -->
+          </p>
         </v-col>
       </v-row>
-      <!-- <v-row> -->
-      <!-- <v-col class="text-center" cols="12">
+      <v-row>
+      <v-col class="text-center" cols="12">
           <h2 style="color: #797878" v-html="$t('frontpage.share')" />
           <ShareLinks />
-        </v-col> -->
-      <!-- </v-row> -->
-    </Wrapper>
+        </v-col>
+      </v-row>
+    </Wrapper> -->
   </div>
 </template>
 
@@ -113,6 +119,20 @@ export default {
 .mt-7 {
   border-radius: 20px;
   box-shadow: none;
+  margin: 0 auto;
+  width: fit-content !important;
+}
+
+.button-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center-button {
+  margin: 0 auto;
 }
 
 p {

@@ -26,7 +26,7 @@ export default {
         text: 'Możesz wykonać ten test dzięki CampusAI, który udostępnia tą witrynę i dzieli się wiedzą na temat skutecznych technik współpracy ze sztuczną inteligencją.'
       },
       free: {
-        title: 'Darmowy dostęp',
+        title: 'Warunki',
         text: 'Test Big Five jest całkowicie darmowy, co umożliwia każdemu odkrycie swoich unikatowych cech osobowości i monitorowanie zmian w czasie.'
       },
       scientific: {
@@ -39,7 +39,8 @@ export default {
       }
     },
     description: {
-      top: 'Chcesz nauczyć się współpracy ze sztuczną inteligencją? Wykonaj test Big Five i rozpocznij swoją podróż do świata AI więdząc dokładnie jak dopasować narzędzia do swojej osobowości. ',
+      first: 'Chcesz nauczyć się współpracy ze sztuczną inteligencją?',
+      top: 'Wykonaj test Big Five i rozpocznij swoją podróż do świata AI więdząc dokładnie jak dopasować narzędzia do swojej osobowości. ',
       subtop: '',
       subtop2: 'jest najbardziej wiarygodnym i naukowo potwierdzonym modelem psychologicznym opisującym osobowość.',
       reference: `Testy i ocena użyte na tej stronie pochodzą z
