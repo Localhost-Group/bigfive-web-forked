@@ -195,7 +195,7 @@ export const actions = {
       }
       // const { id } = await this.$axios.$post('http://localhost:4000/api/' + 'save', result)
 
-      const { id } = await this.$axios.$post('https://bigfive.campusai.pl/api/' + 'save', result)
+      const { id } = await this.$axios.$post('https://bigfive4ai.campusai.pl/api/' + 'save', result)
       localStorage.removeItem('userEmail');
       localStorage.removeItem('optionalCheckbox');
       localStorage.removeItem('requiredCheckbox');
