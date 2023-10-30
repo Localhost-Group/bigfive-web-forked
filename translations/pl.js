@@ -27,7 +27,7 @@ export default {
       },
       free: {
         title: 'Warunki',
-        text: 'Test Big Five jest całkowicie darmowy, co umożliwia każdemu odkrycie swoich unikatowych cech osobowości i monitorowanie zmian w czasie.'
+        text: 'W chwili obecnej test można wykonywać bezpłatnie godząc się na dołączenie do newslettera CampusAI. CampusAI nie przetwarza danych o wynikach testów.'
       },
       scientific: {
         title: 'Naukowe Podstawy',

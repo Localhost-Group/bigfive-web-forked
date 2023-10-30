@@ -2,10 +2,7 @@
   <div class="pt-5">
     <v-tooltip bottom>
       <template #activator="{ on }">
-        <a
-          v-on="on"
-          @click="copyLink(`https://b5.glows.my/${id}`)"
-        >
+        <a v-on="on" @click="copyLink(`https://bigfive.campusai.pl/${id}`)">
           <v-icon x-large>{{ mdiLink }}</v-icon>
         </a>
       </template>
@@ -14,14 +11,8 @@
 
     <v-tooltip bottom>
       <template #activator="{ on }">
-        <a
-          :href="'https://www.facebook.com/sharer/sharer.php?u=https://b5.glows.my/' + id"
-          target="_blank"
-          rel="noopener"
-          aria-label="Share on facebook"
-          v-on="on"
-          @click="logClick('facebook')"
-        >
+        <a :href="'https://www.facebook.com/sharer/sharer.php?u=https://bigfive.campusai.pl/' + id" target="_blank"
+          rel="noopener" aria-label="Share on facebook" v-on="on" @click="logClick('facebook')">
           <v-icon x-large>{{ mdiFacebook }}</v-icon>
         </a>
       </template>
@@ -30,32 +21,16 @@
 
     <v-tooltip bottom>
       <template #activator="{ on }">
-        <a
-          :href="'https://twitter.com/intent/tweet?text=See my personality traits!&url=https://b5.glows.my/' + id"
-          target="_blank"
-          rel="noopener"
-          aria-label="Share on twitter"
-          v-on="on"
-          @click="logClick('twitter')"
-        >
+        <a :href="'https://twitter.com/intent/tweet?text=See my personality traits!&url=https://bigfive.campusai.pl/' + id"
+          target="_blank" rel="noopener" aria-label="Share on twitter" v-on="on" @click="logClick('twitter')">
           <v-icon x-large>{{ mdiTwitter }}</v-icon>
         </a>
       </template>
       {{ $t('shareLinks.shareTwitter') }}
     </v-tooltip>
 
-    <v-dialog
-      v-model="dialog"
-      hide-overlay
-      persistent
-      width="155"
-      origin="top left"
-      transition="fade-transition"
-    >
-      <v-card
-        color="secondary"
-        dark
-      >
+    <v-dialog v-model="dialog" hide-overlay persistent width="155" origin="top left" transition="fade-transition">
+      <v-card color="secondary" dark>
         <v-card-title>
           {{ $t('shareLinks.copiedLink') }}
         </v-card-title>
@@ -83,10 +58,10 @@ export default {
     dialog: false
   }),
   methods: {
-    logClick (type) {
+    logClick(type) {
       this.$amplitude.getInstance().logEvent('b5.sharing', { type })
     },
-    async copyLink (str) {
+    async copyLink(str) {
       const el = document.createElement('textarea')
       el.value = str
       el.setAttribute('readonly', '')
