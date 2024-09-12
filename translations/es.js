@@ -1,205 +1,223 @@
 export default {
-  language: 'Spansih',
+  language: "Spansih",
   seo: {
-    keywords: 'test de personalidad Big Five, test de personalidad Big Five, test b5, test Big Five, rasgos de personalidad, Big Five, comparar, gratis, jordan peterson'
+    keywords:
+      "test de personalidad Big Five, test de personalidad Big Five, test b5, test Big Five, rasgos de personalidad, Big Five, comparar, gratis, jordan peterson"
   },
   frontpage: {
     seo: {
-      title: 'Prueba gratuita y open-source de rasgos de personalidad BigFive',
-      description: 'Realiza la prueba de personalidad Big Five, gratuita y open-source. Aprende a conocer tus rasgos de personalidad y compárate con tu pareja, compañeros, amigos o familiares.'
+      title: "Prueba gratuita y open-source de rasgos de personalidad BigFive",
+      description:
+        "Realiza la prueba de personalidad Big Five, gratuita y open-source. Aprende a conocer tus rasgos de personalidad y compárate con tu pareja, compañeros, amigos o familiares."
     },
-    title: 'Prueba de personalidad Big Five',
-    call_to_action: 'Haz la prueba gratis ahora',
-    no_registration: '*No es necesario registrarse',
-    tests_taken: 'Más de 4.000.000 personas han realizado la prueba',
+    title: "Prueba de personalidad Big Five",
+    call_to_action: "Haz la prueba gratis ahora",
+    no_registration: "*No es necesario registrarse",
+    tests_taken: "Más de 4.000.000 personas han realizado la prueba",
     compare: {
-      title: 'Compárese con los demás',
-      text1: 'Compárese con su pareja, colegas, amigos o familiares.',
-      text2: 'Descubra en qué se diferencia de otras personas en los cinco dominios:',
-      action: 'Míralo en vivo en acción'
+      title: "Compárese con los demás",
+      text1: "Compárese con su pareja, colegas, amigos o familiares.",
+      text2:
+        "Descubra en qué se diferencia de otras personas en los cinco dominios:",
+      action: "Míralo en vivo en acción"
     },
-    share: 'Comparte con tus amigos y descubre qué tan compatible eres',
+    if_u_have_questions: "Si tienes preguntas, escríbenos a ",
+    share: "Comparte con tus amigos y descubre qué tan compatible eres",
     cards: {
       open: {
-        title: 'Open Source',
-        text: 'Este es un proyecto de código abierto con licencia MIT.'
+        title: "Open Source",
+        text: "Este es un proyecto de código abierto con licencia MIT."
       },
       free: {
-        title: 'Gratis',
-        text: 'La prueba es completamente gratuita'
+        title: "Gratis",
+        text: "La prueba es completamente gratuita"
       },
       scientific: {
-        title: 'Científico',
-        text: 'Big Five es un modelo psicológico confiable y científicamente validado.'
+        title: "Científico",
+        text:
+          "Big Five es un modelo psicológico confiable y científicamente validado."
       },
       translated: {
-        title: 'Traducido',
-        text: 'Traducido a más de 20 idiomas. Puedes ayudar <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">aquí</a>!'
+        title: "Traducido",
+        text:
+          'Traducido a más de 20 idiomas. Puedes ayudar <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">aquí</a>!'
       }
     },
     description: {
-      top: 'Aprende a conocerte mejor con un test de personalidad gratuito y open-source',
-      subtop: 'el',
-      subtop2: ' es el modelo psicológico más confiable y científicamente validado para medir la personalidad.',
-      reference: `Las pruebas y la evaluación de este sitio se obtienen de
+      first: "¿Quieres aprender a colaborar con inteligencia artificial?",
+      top:
+        "Realiza el test Big Five y comienza tu viaje hacia el mundo de la IA sabiendo exactamente cómo ajustar las herramientas a tu personalidad.",
+      subtop: "",
+      subtop2:
+        "es el modelo psicológico más confiable y científicamente comprobado que describe la personalidad.",
+      reference: `Las pruebas y evaluaciones utilizadas en esta página provienen de
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
-el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
-      info: 'La siguiente prueba contiene 120 preguntas que estimamos le tomará unos 10 minutos completar.',
-      result: 'Una vez que haya completado la prueba, recibirá un informe de personalidad detallado en los siguientes dominios:',
-      tests_taken: 'pruebas tomadas hasta ahora'
+el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
+      info:
+        "¡Te animamos a realizar el test Big Five y descubrir cómo puedes crear un sistema de colaboración con inteligencia artificial que se ajuste perfectamente a tu personalidad!",
+      result:
+        "Cuando completes el test, recibirás una descripción detallada de tu personalidad que abarca cinco factores:",
+      tests_taken: "pruebas realizadas hasta ahora"
     }
   },
   about: {
     seo: {
-      title: 'Acerca de y el equipo de BigFive',
-      description: 'BigFive tiene un equipo muy activo y comprometido que se esfuerza constantemente por impulsar BigFive adelante'
+      title: "Acerca de y el equipo de BigFive",
+      description:
+        "BigFive tiene un equipo muy activo y comprometido que se esfuerza constantemente por impulsar BigFive adelante"
     }
   },
   toolbar: {
-    home: 'Inicio',
-    result: 'Resultado',
-    compare: 'Comparar',
-    articles: 'Artículos',
-    privacy: 'Privacidad',
-    about: 'Acerca de',
-    see_results: 'Ver sus resultados',
-    compare_with: 'Comparar con otros'
+    home: "Inicio",
+    result: "Resultado",
+    compare: "Comparar",
+    articles: "Artículos",
+    privacy: "Privacidad",
+    about: "Acerca de",
+    see_results: "Ver sus resultados",
+    go_to_campus: "Ve a CampusAI",
+    compare_with: "Comparar con otros"
   },
   facets: {
     openness_to_experience: {
-      title: 'Apertura a la Experiencia'
+      title: "Apertura a la Experiencia"
     },
     conscientiousness: {
-      title: 'Escrupulosidad'
+      title: "Escrupulosidad"
     },
     extraversion: {
-      title: 'Extraversión'
+      title: "Extraversión"
     },
     agreeableness: {
-      title: 'Amabilidad'
+      title: "Amabilidad"
     },
     neuroticism: {
-      title: 'Neuroticismo'
+      title: "Neuroticismo"
     }
   },
   common: {
-    and: 'y',
-    pages: 'páginas',
-    languages: 'idiomas'
+    and: "y",
+    pages: "páginas",
+    languages: "idiomas"
   },
   form: {
-    information: 'Información',
-    informationText: 'Usamos la información que nos proporciona para servirle',
-    mostAccurate: 'resultado más preciso posible',
-    readMoreAbout: 'Leer más sobre',
-    privacy: 'privacidad',
-    nextButton: 'Okey, siguiente pregunta ',
-    declineButton: 'continuar sin compartir',
-    prefferedLanguage: 'Mi idioma preferido es',
-    selectLanguage: 'Selecciona un idioma',
-    iama: 'Soy un',
-    male: 'Masculino',
-    female: 'Femenino',
-    age: 'Años',
-    iam: 'yo soy',
-    yearsOld: 'años',
-    ageWarning: 'Debes tener 16 años o más',
-    language: 'Idioma',
-    gender: 'Género',
-    confirmInfo: 'Confirmar información',
-    confirm: 'Confirmar',
-    toTestButton: 'Muy bien, llévame a la prueba'
+    information: "Información",
+    informationText: "Usamos la información que nos proporciona para servirle",
+    mostAccurate: "resultado más preciso posible",
+    readMoreAbout: "Leer más sobre",
+    privacy: "privacidad",
+    nextButton: "Okey, siguiente pregunta ",
+    declineButton: "continuar sin compartir",
+    prefferedLanguage: "Mi idioma preferido es",
+    selectLanguage: "Selecciona un idioma",
+    iama: "Soy un",
+    male: "Masculino",
+    female: "Femenino",
+    age: "Años",
+    iam: "yo soy",
+    yearsOld: "años",
+    ageWarning: "Debes tener 16 años o más",
+    language: "Idioma",
+    gender: "Género",
+    confirmInfo: "Confirmar información",
+    confirm: "Confirmar",
+    toTestButton: "Muy bien, llévame a la prueba"
   },
   test: {
-    next: 'siguiente',
-    back: 'atrás',
-    more: 'más',
-    seeResults: 'ver resultados'
+    next: "siguiente",
+    back: "atrás",
+    more: "más",
+    seeResults: "ver resultados"
   },
   big_five: {
-    title: 'Que es Big Five?',
+    title: "Que es Big Five?",
     seo: {
-      title: 'Que es Big Five?',
-      description: 'Leer más sobre Big Five'
+      title: "Que es Big Five?",
+      description: "Leer más sobre Big Five"
     }
   },
   openness_to_experience: {
-    title: 'Apertura a la Experiencia',
+    title: "Apertura a la Experiencia",
     seo: {
-      title: 'Descripción general del dominio Apertura a la Experiencia.',
-      description: 'Más información sobre el dominio Apertura a la Experiencia en el modelo b5'
+      title: "Descripción general del dominio Apertura a la Experiencia.",
+      description:
+        "Más información sobre el dominio Apertura a la Experiencia en el modelo b5"
     }
   },
   conscientiousness: {
-    title: 'Escrupulosidad',
+    title: "Escrupulosidad",
     seo: {
-      title: 'Visión general del dominio Conciencia',
-      description: 'Leer más sobre el dominio de Conciencia en el modelo b5'
+      title: "Visión general del dominio Conciencia",
+      description: "Leer más sobre el dominio de Conciencia en el modelo b5"
     }
   },
   extraversion: {
-    title: 'Extraversión',
+    title: "Extraversión",
     seo: {
-      title: 'Resumen de la extraversión de dominio',
-      description: 'Leer más sobre el dominio de Extraversión en el modelo b5 '
+      title: "Resumen de la extraversión de dominio",
+      description: "Leer más sobre el dominio de Extraversión en el modelo b5 "
     }
   },
   agreeableness: {
-    title: 'Amabilidad',
+    title: "Amabilidad",
     seo: {
-      title: 'Descripción general del dominio Amabilidad',
-      description: 'Leer más sobre el dominio de la Amabilidad en el modelo b5'
+      title: "Descripción general del dominio Amabilidad",
+      description: "Leer más sobre el dominio de la Amabilidad en el modelo b5"
     }
   },
   neuroticism: {
-    title: 'Neuroticismo',
+    title: "Neuroticismo",
     seo: {
-      title: 'Descripción general del dominio Neuroticismo ',
-      description: 'Leer más sobre el dominio de Neuroticismo en el modelo b5'
+      title: "Descripción general del dominio Neuroticismo ",
+      description: "Leer más sobre el dominio de Neuroticismo en el modelo b5"
     }
   },
   getCompare: {
-    title: 'Comparar personas o equipos',
-    description1: 'Compare los resultados del test de personalidad Big Five con varias personas.',
-    description2: 'Escriba la identificación que obtuvo de los resultados de la prueba, es decir, ',
-    description3: 'en el campo de entrada de ID ',
-    needToAddPeople: 'Necesitas agregar personas para compararlas',
-    addAnother: 'Agregar otra persona',
-    addPerson: 'Agregar persona',
-    comparePeople: 'comparar personas',
-    nameOfPerson: 'Nombre de esta persona',
-    urlOrId: 'URL o ID para comparar',
-    name: 'Nombre'
+    title: "Comparar personas o equipos",
+    description1:
+      "Compare los resultados del test de personalidad Big Five con varias personas.",
+    description2:
+      "Escriba la identificación que obtuvo de los resultados de la prueba, es decir, ",
+    description3: "en el campo de entrada de ID ",
+    needToAddPeople: "Necesitas agregar personas para compararlas",
+    addAnother: "Agregar otra persona",
+    addPerson: "Agregar persona",
+    comparePeople: "comparar personas",
+    nameOfPerson: "Nombre de esta persona",
+    urlOrId: "URL o ID para comparar",
+    name: "Nombre"
   },
   results: {
-    theBigFive: 'Los Big Five',
-    score: 'Puntuación',
-    important: 'Importante!',
-    saveResults: 'Guarde la siguiente ID para ver los resultados más tarde o ',
-    compare: 'comparar',
-    toOthers: 'usted mismo a los demás',
+    theBigFive: "Los Big Five",
+    score: "Puntuación",
+    important: "Importante!",
+    saveResults: "Guarde la siguiente ID para ver los resultados más tarde o ",
+    compare: "comparar",
+    toOthers: "usted mismo a los demás",
     seo: {
-      title: 'Mis resultados de la prueba de personalidad Big Five',
-      description: 'Vea mi personalidad y compárese en los siguientes cinco dominios: neuroticismo, apertura a la experiencia, escrupulosidad, extraversión, amabilidad'
+      title: "Mis resultados de la prueba de personalidad Big Five",
+      description:
+        "Vea mi personalidad y compárese en los siguientes cinco dominios: neuroticismo, apertura a la experiencia, escrupulosidad, extraversión, amabilidad"
     }
   },
   getResult: {
-    result: 'Resultado',
-    explanation: 'Si ha realizado la prueba y ha guardado su identificación, puede ver los resultados aquí escribiendo la identificación que obtuvo, es decir, ',
-    idInput: 'en el campo de entrada de ID',
-    urlOrId: 'URL o ID de su resultado',
-    getResult: 'Obtener resultado',
-    viewPrevious: 'Ver resultado anterior'
+    result: "Resultado",
+    explanation:
+      "Si ha realizado la prueba y ha guardado su identificación, puede ver los resultados aquí escribiendo la identificación que obtuvo, es decir, ",
+    idInput: "en el campo de entrada de ID",
+    urlOrId: "URL o ID de su resultado",
+    getResult: "Obtener resultado",
+    viewPrevious: "Ver resultado anterior"
   },
   shareLinks: {
-    copyLink: 'Copiar enlace al portapapeles',
-    shareFacebook: 'Compartir en Facebook',
-    shareTwitter: 'Compartir en Twitter',
-    copiedLink: 'Enlace copiado',
-    shareResults: 'Comparte tus resultados!'
+    copyLink: "Copiar enlace al portapapeles",
+    shareFacebook: "Compartir en Facebook",
+    shareTwitter: "Compartir en Twitter",
+    copiedLink: "Enlace copiado",
+    shareResults: "Comparte tus resultados!"
   },
   privacy: {
-    title: 'Privacy Policy',
+    title: "Privacy Policy",
     description: `
     This privacy policy will explain how we use the personal data we collect from you
     when you use our website.
@@ -269,7 +287,8 @@ el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
     `
   },
   opennessToExperience: {
-    quote: 'Abierto a la Experiencia describe una dimensión del estilo cognitivo que distingue a las personas imaginativas, aquellas con los pies en la tierra y personas convencionales.',
+    quote:
+      "Abierto a la Experiencia describe una dimensión del estilo cognitivo que distingue a las personas imaginativas, aquellas con los pies en la tierra y personas convencionales.",
     text1: `
       <p>
         Abierto a la Experiencia describe una dimensión del estilo cognitivo que distingue a las personas imaginativas, aquellas con los pies en la tierra y personas convencionales.
@@ -396,7 +415,8 @@ el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
     `
   },
   neuroticismPage: {
-    quote: 'Neuroticism refers to the tendency to experience negative feelings.',
+    quote:
+      "Neuroticism refers to the tendency to experience negative feelings.",
     text1: `
     <p>
       Neuroticism refers to the tendency to experience negative feelings.
@@ -489,7 +509,8 @@ el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
     `
   },
   extraversionPage: {
-    quote: 'Extraversion is marked by pronounced engagement with the external world.',
+    quote:
+      "Extraversion is marked by pronounced engagement with the external world.",
     text1: `
       <p>
         Extraversion is marked by pronounced engagement with the external world.
@@ -565,7 +586,8 @@ el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
     </p>`
   },
   conscientiousnessPage: {
-    quote: 'Conscientiousness is a tendency to display self-discipline, act dutifully, and strive for achievement against measures or outside expectations. It is related to the way in which people control, regulate, and direct their impulses.',
+    quote:
+      "Conscientiousness is a tendency to display self-discipline, act dutifully, and strive for achievement against measures or outside expectations. It is related to the way in which people control, regulate, and direct their impulses.",
     text1: `
     <p>
       Conscientiousness concerns the way in which we control, regulate, and direct our impulses.
@@ -644,7 +666,8 @@ el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
     `
   },
   agreeablenessPage: {
-    quote: 'Agreeableness reflects individual differences in concern with cooperation and social harmony.',
+    quote:
+      "Agreeableness reflects individual differences in concern with cooperation and social harmony.",
     text1: `<p>
       Agreeableness reflects individual differences in concern with cooperation and social harmony. Agreeable individuals value getting along with others.
     </p>
@@ -706,4 +729,4 @@ el inventario es de<i>Johnson's (2014) IPIP NEO-PI-R de 120 elementos</i>.`,
     </p>
     `
   }
-}
+};

@@ -272,14 +272,14 @@ export default {
         ],
         seo: true,
         baseUrl: "https://b5.glows.my",
-        defaultLocale: "pl",
+        defaultLocale: "es",
         strategy: "prefix_except_default",
         lazy: true,
         langDir: "translations/",
         detectBrowserLanguage: {
           onlyOnRoot: true,
           useCookie: true,
-          fallbackLocale: "pl"
+          fallbackLocale: "es"
         }
       }
     ],
@@ -325,7 +325,7 @@ export default {
       icons: false
     },
     lang: {
-      current: "pl"
+      current: "es"
     },
     theme: {
       light: true,

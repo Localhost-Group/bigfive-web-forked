@@ -1,208 +1,232 @@
 export default {
-  language: 'Polish',
+  language: "Polish",
   seo: {
-    keywords: 'test osobowości wielkiej piątki, big 5 test osobowości, wielka piątka, b5 test, bigfive test, cechy osobowości, bigfive, porównanie, za darmo, jordan peterson'
+    keywords:
+      "test osobowości wielkiej piątki, big 5 test osobowości, wielka piątka, b5 test, bigfive test, cechy osobowości, bigfive, porównanie, za darmo, jordan peterson"
   },
   frontpage: {
     seo: {
-      title: 'Darmowy, open source\'owy test osobowości BigFive',
-      description: 'Zrób darmowy, open-source`owy test Wielkiej Piątki. Poznaj swoje cechy osobowości i porównaj się ze swoim partnerem, partnerką, kolegami, przyjaciółmi i rodziną.'
+      title: "Darmowy, open source'owy test osobowości BigFive",
+      description:
+        "Zrób darmowy, open-source`owy test Wielkiej Piątki. Poznaj swoje cechy osobowości i porównaj się ze swoim partnerem, partnerką, kolegami, przyjaciółmi i rodziną."
     },
-    title: 'Test Osobowości Wielkiej Piątki',
-    call_to_action: 'Rozpocznij darmowy test',
-    no_registration: '* Rejestracja nie jest wymagana',
-    tests_taken: 'Ponad 4.000.000 ludzi wzięło udział w teście',
+    title: "Test Osobowości Wielkiej Piątki",
+    call_to_action: "Rozpocznij darmowy test",
+    no_registration: "* Rejestracja nie jest wymagana",
+    tests_taken: "Ponad 4.000.000 ludzi wzięło udział w teście",
     compare: {
-      title: 'Sprawdź swoją osobowość',
-      text1: 'Porównaj się ze swoim partnerem, partnerką, kolegami, przyjaciółmi i rodziną.',
-      text2: 'Jest to naukowo udowodniony i wiarygodny model psychologiczny, który skrupulatnie analizuje Twoje cechy osobowości w pięciu kluczowych domenach:',
-      text3: '. Zrozumienie swoich predyspozycji osobowościowych to pierwszy krok do zbudowania spersonalizowanego systemu pracy ze sztuczną inteligencją (AI)',
-      action: 'Zobacz'
+      title: "Sprawdź swoją osobowość",
+      text1:
+        "Porównaj się ze swoim partnerem, partnerką, kolegami, przyjaciółmi i rodziną.",
+      text2:
+        "Jest to naukowo udowodniony i wiarygodny model psychologiczny, który skrupulatnie analizuje Twoje cechy osobowości w pięciu kluczowych domenach:",
+      text3:
+        ". Zrozumienie swoich predyspozycji osobowościowych to pierwszy krok do zbudowania spersonalizowanego systemu pracy ze sztuczną inteligencją (AI)",
+      action: "Zobacz"
     },
-    share: 'Udostępnij test przyjaciołom i dowiedz się jak bardzo jesteście kompatybilni',
+    if_u_have_questions: "Jeśli masz pytania, napisz do nas na ",
+    share:
+      "Udostępnij test przyjaciołom i dowiedz się jak bardzo jesteście kompatybilni",
     cards: {
       open: {
-        title: 'Operator',
-        text: 'Możesz wykonać ten test dzięki CampusAI, który udostępnia tą witrynę i dzieli się wiedzą na temat skutecznych technik współpracy ze sztuczną inteligencją.'
+        title: "Operator",
+        text:
+          "Możesz wykonać ten test dzięki CampusAI, który udostępnia tą witrynę i dzieli się wiedzą na temat skutecznych technik współpracy ze sztuczną inteligencją."
       },
       free: {
-        title: 'Warunki',
-        text: 'W chwili obecnej test można wykonywać bezpłatnie godząc się na dołączenie do newslettera CampusAI. CampusAI nie przetwarza danych o wynikach testów.'
+        title: "Warunki",
+        text:
+          "W chwili obecnej test można wykonywać bezpłatnie godząc się na dołączenie do newslettera CampusAI. CampusAI nie przetwarza danych o wynikach testów."
       },
       scientific: {
-        title: 'Naukowe Podstawy',
-        text: 'Big Five to udowodniony naukowo model, oparty na solidnych badaniach psychologicznych, oferujący wiarygodny wgląd w Twoją osobowość.'
+        title: "Naukowe Podstawy",
+        text:
+          "Big Five to udowodniony naukowo model, oparty na solidnych badaniach psychologicznych, oferujący wiarygodny wgląd w Twoją osobowość."
       },
       translated: {
-        title: 'Przetłumaczony',
-        text: 'Przetłumaczony na ponad 20 języków. Pomóż <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">tutaj</a>!'
+        title: "Przetłumaczony",
+        text:
+          'Przetłumaczony na ponad 20 języków. Pomóż <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">tutaj</a>!'
       }
     },
     description: {
-      first: 'Chcesz nauczyć się współpracy ze sztuczną inteligencją?',
-      top: 'Wykonaj test Big Five i rozpocznij swoją podróż do świata AI więdząc dokładnie jak dopasować narzędzia do swojej osobowości. ',
-      subtop: '',
-      subtop2: 'jest najbardziej wiarygodnym i naukowo potwierdzonym modelem psychologicznym opisującym osobowość.',
+      first: "Chcesz nauczyć się współpracy ze sztuczną inteligencją?",
+      top:
+        "Wykonaj test Big Five i rozpocznij swoją podróż do świata AI więdząc dokładnie jak dopasować narzędzia do swojej osobowości. ",
+      subtop: "",
+      subtop2:
+        "jest najbardziej wiarygodnym i naukowo potwierdzonym modelem psychologicznym opisującym osobowość.",
       reference: `Testy i ocena użyte na tej stronie pochodzą z
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
-      info: 'Zachęcamy Cię do wykonania testu Big Five i odkrycia, jak możesz zbudować system współpracy ze sztuczną inteligencją, który jest idealnie dopasowany do Twojej osobowości!',
-      result: 'Kiedy wypełnisz test, otrzymasz szczegółowy opis Twojej osobowości obejmujący pięć czynników:',
-      tests_taken: 'dotychczasowe testy'
+      info:
+        "Zachęcamy Cię do wykonania testu Big Five i odkrycia, jak możesz zbudować system współpracy ze sztuczną inteligencją, który jest idealnie dopasowany do Twojej osobowości!",
+      result:
+        "Kiedy wypełnisz test, otrzymasz szczegółowy opis Twojej osobowości obejmujący pięć czynników:",
+      tests_taken: "dotychczasowe testy"
     }
   },
   about: {
     seo: {
-      title: 'O nas',
-      description: 'BigFive jest prowadzony przez bardzo aktywny i zaangażowany zespół, który ciągle rozwija projekt.'
+      title: "O nas",
+      description:
+        "BigFive jest prowadzony przez bardzo aktywny i zaangażowany zespół, który ciągle rozwija projekt."
     }
   },
   toolbar: {
-    home: 'Strona Główna',
-    result: 'Wynik',
-    compare: 'Porównaj',
-    articles: 'Artykuły',
-    privacy: 'Prywatność',
-    about: 'O nas',
-    see_results: 'Zobacz swoje wyniki',
-    go_to_campus: 'Przejdź do CampusAI',
-    compare_with: 'Porównaj z innymi'
+    home: "Strona Główna",
+    result: "Wynik",
+    compare: "Porównaj",
+    articles: "Artykuły",
+    privacy: "Prywatność",
+    about: "O nas",
+    see_results: "Zobacz swoje wyniki",
+    go_to_campus: "Przejdź do CampusAI",
+    compare_with: "Porównaj z innymi"
   },
   facets: {
     openness_to_experience: {
-      title: 'Otwartość na doświadczenie'
+      title: "Otwartość na doświadczenie"
     },
     conscientiousness: {
-      title: 'Sumienność'
+      title: "Sumienność"
     },
     extraversion: {
-      title: 'Ekstrawersja'
+      title: "Ekstrawersja"
     },
     agreeableness: {
-      title: 'Ugodowość'
+      title: "Ugodowość"
     },
     neuroticism: {
-      title: 'Neurotyczność'
+      title: "Neurotyczność"
     }
   },
   common: {
-    and: 'i',
-    pages: 'strony',
-    languages: 'języki'
+    and: "i",
+    pages: "strony",
+    languages: "języki"
   },
   form: {
-    information: 'Informacja',
-    informationText: 'Używamy podanych przez Ciebie informacji, by dostarczyć Ci',
-    mostAccurate: 'możliwie najdoładniejszy wynik.',
-    readMoreAbout: 'Przeczytaj o',
-    privacy: 'Prywatność',
-    nextButton: 'Ok, następne pytanie',
-    declineButton: 'kontynuuj bez udostępniania',
-    prefferedLanguage: 'Moim preferowanym językiem jest',
-    selectLanguage: 'Wybierz język',
-    iama: 'Jestem',
-    male: 'Mężczyzną',
-    female: 'Kobietą',
-    age: 'Wiek',
-    iam: 'Mam',
-    yearsOld: 'lat',
-    ageWarning: 'Musisz mieć skończone 16 lat',
-    language: 'Język',
-    gender: 'Płeć',
-    confirmInfo: 'Potwierdź informację',
-    confirm: 'Potwierdź',
-    toTestButton: 'Ok, rozpocznij test'
+    information: "Informacja",
+    informationText:
+      "Używamy podanych przez Ciebie informacji, by dostarczyć Ci",
+    mostAccurate: "możliwie najdoładniejszy wynik.",
+    readMoreAbout: "Przeczytaj o",
+    privacy: "Prywatność",
+    nextButton: "Ok, następne pytanie",
+    declineButton: "kontynuuj bez udostępniania",
+    prefferedLanguage: "Moim preferowanym językiem jest",
+    selectLanguage: "Wybierz język",
+    iama: "Jestem",
+    male: "Mężczyzną",
+    female: "Kobietą",
+    age: "Wiek",
+    iam: "Mam",
+    yearsOld: "lat",
+    ageWarning: "Musisz mieć skończone 16 lat",
+    language: "Język",
+    gender: "Płeć",
+    confirmInfo: "Potwierdź informację",
+    confirm: "Potwierdź",
+    toTestButton: "Ok, rozpocznij test"
   },
   test: {
-    next: 'następne',
-    back: 'poprzednie',
-    more: 'więcej',
-    seeResults: 'zobacz wyniki'
+    next: "następne",
+    back: "poprzednie",
+    more: "więcej",
+    seeResults: "zobacz wyniki"
   },
   big_five: {
-    title: 'Czym jest Wielka Piątka?',
+    title: "Czym jest Wielka Piątka?",
     seo: {
-      title: 'Czym jest Wielka Piątka?',
-      description: 'Przeczytaj więcej o Wielkiej Piątce'
+      title: "Czym jest Wielka Piątka?",
+      description: "Przeczytaj więcej o Wielkiej Piątce"
     }
   },
   openness_to_experience: {
-    title: 'Otwartość na doświadczenie',
+    title: "Otwartość na doświadczenie",
     seo: {
       title: 'Przegląd czynnika "Otwartość na doświadczenie"',
-      description: 'Przeczytaj więcej o czynniku "Otwartość na doświadczenie" w modelu Wielkiej Piątki'
+      description:
+        'Przeczytaj więcej o czynniku "Otwartość na doświadczenie" w modelu Wielkiej Piątki'
     }
   },
   conscientiousness: {
-    title: 'Sumienność',
+    title: "Sumienność",
     seo: {
       title: 'Przegląd czynnika "Sumienność"',
-      description: 'Przeczytaj więcej o czynniku "Sumienność" w modelu Wielkiej Piątki'
+      description:
+        'Przeczytaj więcej o czynniku "Sumienność" w modelu Wielkiej Piątki'
     }
   },
   extraversion: {
-    title: 'Ekstrawersja',
+    title: "Ekstrawersja",
     seo: {
       title: 'Przegląd czynnika "Ekstrawersja"',
-      description: 'Przeczytaj więcej o czynniku "Ekstrawersja" w modelu Wielkiej Piątki'
+      description:
+        'Przeczytaj więcej o czynniku "Ekstrawersja" w modelu Wielkiej Piątki'
     }
   },
   agreeableness: {
-    title: 'Ugodowość',
+    title: "Ugodowość",
     seo: {
       title: 'Przegląd czynnika "Ugodowość"',
-      description: 'Przeczytaj więcej o czynniku "Ugodowość" w modelu Wielkiej Piątki'
+      description:
+        'Przeczytaj więcej o czynniku "Ugodowość" w modelu Wielkiej Piątki'
     }
   },
   neuroticism: {
-    title: 'Neurotyczność',
+    title: "Neurotyczność",
     seo: {
       title: 'Przegląd czynnika "Neurotyczność"',
-      description: 'Przeczytaj więcej o czynniku "Neurotyczność" w modelu Wielkiej Piątki'
+      description:
+        'Przeczytaj więcej o czynniku "Neurotyczność" w modelu Wielkiej Piątki'
     }
   },
   getCompare: {
-    title: 'Porównaj osoby lub zespoły',
-    description1: 'Porównaj wyniki testu BigFive z różnymi ludźmi.',
-    description2: 'Wpisz ID, które otrzymałeś w wynikach',
-    description3: 'w polu wprowadzania ID',
-    needToAddPeople: 'Musisz dodać osoby, by je porównać',
-    addAnother: 'Dodaj kolejną osobę',
-    addPerson: 'Dodaj osobę',
-    comparePeople: 'porównaj osoby',
-    nameOfPerson: 'Imię osoby',
-    urlOrId: 'URL lub ID do porównania',
-    name: 'Imię'
+    title: "Porównaj osoby lub zespoły",
+    description1: "Porównaj wyniki testu BigFive z różnymi ludźmi.",
+    description2: "Wpisz ID, które otrzymałeś w wynikach",
+    description3: "w polu wprowadzania ID",
+    needToAddPeople: "Musisz dodać osoby, by je porównać",
+    addAnother: "Dodaj kolejną osobę",
+    addPerson: "Dodaj osobę",
+    comparePeople: "porównaj osoby",
+    nameOfPerson: "Imię osoby",
+    urlOrId: "URL lub ID do porównania",
+    name: "Imię"
   },
   results: {
-    theBigFive: 'Wielka Piątka',
-    score: 'punktacja',
-    important: 'Ważne!',
-    saveResults: 'Zachowaj następujące ID, by móc powrócić do swoich wyników.',
-    compare: 'Porównaj',
-    toOthers: 'się z innymi',
+    theBigFive: "Wielka Piątka",
+    score: "punktacja",
+    important: "Ważne!",
+    saveResults: "Zachowaj następujące ID, by móc powrócić do swoich wyników.",
+    compare: "Porównaj",
+    toOthers: "się z innymi",
     seo: {
-      title: 'Moje wyniki testu osobowości BigFive.',
-      description: 'Poznaj moją osobowość i porównaj ze swoją w następujących pięciu kategoriach: Neurotyczność, Otwartość na doświadczenia, Sumienność, Ekstrawersja, Ugodowość.'
+      title: "Moje wyniki testu osobowości BigFive.",
+      description:
+        "Poznaj moją osobowość i porównaj ze swoją w następujących pięciu kategoriach: Neurotyczność, Otwartość na doświadczenia, Sumienność, Ekstrawersja, Ugodowość."
     }
   },
   getResult: {
-    result: 'Wynik',
-    explanation: 'Jeśli wykonywałeś już test i zapisałeś ID, możesz zobaczyć wynik po wpisaniu otrzymanego ID',
-    idInput: 'w pole wprowadzania',
-    urlOrId: 'URL lub ID Twojego wyniku',
-    getResult: 'Otrzymaj wynik',
-    viewPrevious: 'Wyświetl poprzedni wynik'
+    result: "Wynik",
+    explanation:
+      "Jeśli wykonywałeś już test i zapisałeś ID, możesz zobaczyć wynik po wpisaniu otrzymanego ID",
+    idInput: "w pole wprowadzania",
+    urlOrId: "URL lub ID Twojego wyniku",
+    getResult: "Otrzymaj wynik",
+    viewPrevious: "Wyświetl poprzedni wynik"
   },
   shareLinks: {
-    copyLink: 'Skopiuj do schowka',
-    shareFacebook: 'Udostępnij na Facebooku',
-    shareTwitter: 'Udostępnij na Twitterze',
-    copiedLink: 'Skopiowany link',
-    shareResults: 'Podziel się wynikami!'
+    copyLink: "Skopiuj do schowka",
+    shareFacebook: "Udostępnij na Facebooku",
+    shareTwitter: "Udostępnij na Twitterze",
+    copiedLink: "Skopiowany link",
+    shareResults: "Podziel się wynikami!"
   },
   privacy: {
-    title: 'Polityka Prywatności',
+    title: "Polityka Prywatności",
     description: `
 <p><span style="font-weight: 400;">Niniejsze oświadczenie o prywatności dotyczy przetwarzania danych osobowych użytkowników, którzy korzystają ze strony www.campusai.pl oraz zakładają konto na www.campusai.pl. Administratorem przetwarzania tych danych osobowych (dalej: “Administrator”) jest Prosta Spółka Akcyjna CampusAI zarejestrowana przy ul. Chmielnej 73 w Warszawie, wpisana do Rejestru Przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawy, XIII Wydział Gospodarczy pod numerem KRS 0001030100, REGON: 525037867, NIP: 5273051714 Dalej zwana “CampusAI”.</span></p>
 <p><span style="font-weight: 400;">CampusAI ponosi odpowiedzialność za przetwarzanie tych danych osobowych i poważnie traktuje kwestię Państwa prywatności. Z tego względu CampusAI przestrzega wymogów Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (dalej: RODO).</span></p>
@@ -275,7 +299,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
 <h1>&nbsp;</h1>`
   },
   opennessToExperience: {
-    quote: 'Otwartość na doświadczenie opisuje styl poznawczy, który odróżnia osoby z wyobraźnią, kreatywne od osób konwencjonalnych, twardo stąpających po ziemi.',
+    quote:
+      "Otwartość na doświadczenie opisuje styl poznawczy, który odróżnia osoby z wyobraźnią, kreatywne od osób konwencjonalnych, twardo stąpających po ziemi.",
     text1: `
       <p>
         Otwartość na doświadczenie opisuje styl poznawczy, który odróżnia osoby z wyobraźnią, kreatywne od osób konwencjonalnych, twardo stąpających po ziemi.
@@ -401,8 +426,9 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       </p>
     `
   },
-neuroticismPage: {
-    quote: 'Neurotyzm odnosi się do tendencji do doświadczania negatywnych uczuć.',
+  neuroticismPage: {
+    quote:
+      "Neurotyzm odnosi się do tendencji do doświadczania negatywnych uczuć.",
     text1: `
     <p>
       Neurotyzm odnosi się do tendencji do doświadczania negatywnych uczuć.
@@ -495,7 +521,8 @@ neuroticismPage: {
     `
   },
   extraversionPage: {
-    quote: 'Ekstrawersja objawia się wyraźnym zaangażowaniem w świat zewnętrzny.',
+    quote:
+      "Ekstrawersja objawia się wyraźnym zaangażowaniem w świat zewnętrzny.",
     text1: `
       <p>
         Ekstrawertycy cechują się wyraźnym zaangażowaniem w świat zewnętrzny.
@@ -570,8 +597,9 @@ neuroticismPage: {
       Osoby o niskim wyniku nie są tak podatne na takie energiczne, radosne duchy.
     </p>`
   },
-conscientiousnessPage: {
-    quote: 'Sumienie to skłonność do wykazywania samodyscypliny, działania sumiennie i dążenia do osiągnięć według określonych miar lub oczekiwań zewnętrznych. Jest związane z kontrolowaniem, regulowaniem i kierowaniem impulsami ludzkimi.',
+  conscientiousnessPage: {
+    quote:
+      "Sumienie to skłonność do wykazywania samodyscypliny, działania sumiennie i dążenia do osiągnięć według określonych miar lub oczekiwań zewnętrznych. Jest związane z kontrolowaniem, regulowaniem i kierowaniem impulsami ludzkimi.",
     text1: `
     <p>
       Sumienie dotyczy sposobu, w jaki kontrolujemy, regulujemy i kierujemy naszymi impulsami.
@@ -650,7 +678,8 @@ conscientiousnessPage: {
     `
   },
   agreeablenessPage: {
-    quote: 'Uprzejmość odzwierciedla indywidualne różnice w trosce o współpracę i harmonię społeczną.',
+    quote:
+      "Uprzejmość odzwierciedla indywidualne różnice w trosce o współpracę i harmonię społeczną.",
     text1: `<p>
       Uprzejmość odzwierciedla indywidualne różnice w trosce o współpracę i harmonię społeczną. Osoby uprzejme cenią sobie dobre stosunki z innymi.
     </p>
@@ -712,5 +741,4 @@ conscientiousnessPage: {
     </p>
     `
   }
-
-}
+};
