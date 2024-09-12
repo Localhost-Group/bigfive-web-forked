@@ -45,11 +45,10 @@
       <span class="headline">{{ $t('shareLinks.shareResults') }}</span>
       <ShareLinks :id="'result/' + $route.params.id" />
       <div class="share-info" style="marginTop: 25px">
-        Test "BIG 5" na licencji open-source, opracowanie MIT <br>
-        Tłumaczenie, adaptacja, rozpisanie relacji osobowość-AI: <strong>Andrzej Tucholski</strong> (psycholog
-        biznesu)<br>
-        Superwizja: <strong>Paulina Danielak</strong> (psycholożka i psychoterapeutka CBT w trakcie specjalizacji)<br>
-        Superwizja: <strong>Mateusz Brela</strong> (psycholog sportu)<br></p>
+        {{ $t('test.license') }} <br>
+        {{ $t('test.translation1') }} <strong>Andrzej Tucholski</strong> {{ $t('test.translation2') }}<br>
+        {{ $t('test.supervision') }}: <strong>Paulina Danielak</strong> (psycholożka i psychoterapeutka CBT w trakcie specjalizacji)<br>
+       {{ $t('test.supervision') }}: <strong>Mateusz Brela</strong> (psycholog sportu)<br></p>
       </div>
     </div>
     <Error v-else />

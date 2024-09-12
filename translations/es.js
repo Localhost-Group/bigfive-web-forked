@@ -127,7 +127,22 @@ el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     next: "siguiente",
     back: "atrás",
     more: "más",
-    seeResults: "ver resultados"
+    seeResults: "ver resultados",
+    first:
+      "Deja tu dirección de correo electrónico y te enviaremos materiales adicionales gratis que te ayudarán a aprovechar al máximo tu autoconocimiento al trabajar con IA.",
+    second:
+      "Si quieres más, únete a nuestra comunidad en rápido crecimiento en CampusAI, donde a través del programa Me+AI puedes desarrollar tus habilidades y empezar a trabajar con las últimas tecnologías de IA en el marco del distrito generativo colaborativo. Puedes encontrar más información en ",
+    accept1: "Acepto la política de privacidad (requerido)",
+    accept2:
+      "Doy mi consentimiento para que mis datos sean procesados con fines de marketing por CampusAI Prosta Spółka Akcyjna Chmielna 73, 00-801 Varsovia (opcional)",
+    email_placeholder: "Introduce tu dirección de correo electrónico",
+    begin_test_btn: "Comenzar prueba",
+    license: 'Test "BIG 5" con licencia de código abierto, desarrollo MIT',
+    translation1: "Traducción, adaptación, relación personalidad-IA: ",
+    translation2: "(psicólogo empresarial)",
+    supervision: "Supervisión:",
+    supervision1: "(psicóloga y psicoterapeuta CBT en formación)",
+    supervision2: "(psicólogo deportivo)"
   },
   big_five: {
     title: "Que es Big Five?",

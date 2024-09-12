@@ -3,64 +3,110 @@
     <LazyFormLanguage v-if="!form.language" />
     <div v-else>
       <v-row>
-        <p v-if="!testStarted">Zostaw swój adres e-mail, a my prześlemy Ci za darmo dodatkowe materiały, które pomogą Ci
-          maksymalnie
-          wykorzystać
-          swoją wiedzę o sobie w pracy z AI.</p>
+        <p v-if="!testStarted">{{ $t("test.first") }}</p>
         <p v-if="!testStarted">
-          Jeżeli chcesz więcej dołącz do naszej dynamicznie rozwijającej się społeczności w CampusAI, gdzie w ramach
-          programu Me+AI możesz rozwinąć swoje umiejętności i zacząć pracować z najnowszymi technologiami AI w ramach
-          współtworzonej generatywnej dzielnicy. Więcej informacji znajdziesz na <a href="www.campusai.pl"
-            target="_blank">www.campusai.pl</a>
+          {{ $t("test.second") }}
+          <a href="www.campusai.pl" target="_blank">www.campusai.pl</a>
         </p>
         <v-col cols="12" v-if="!testStarted">
           <div class="my-input">
-            <input v-model="requiredCheckbox" type="checkbox" id="requiredCheckbox">
-            <label for="requiredCheckbox">Akceptuję politykę prywatności (wymagane)</label>
+            <input
+              v-model="requiredCheckbox"
+              type="checkbox"
+              id="requiredCheckbox"
+            />
+            <label for="requiredCheckbox">{{ $t("test.accept1") }}</label>
           </div>
         </v-col>
         <v-col cols="12" v-if="!testStarted">
           <div class="my-input">
-            <input v-model="optionalCheckbox" type="checkbox" id="optionalCheckbox">
-            <label for="optionalCheckbox">Wyrażam zgodę na przetwarzanie moich danych w celach marketingowych przez
-              CampusAI Prosta Spółka Akcyjna Chmielna 73, 00-801 Warszawa (opcjonalne)</label>
+            <input
+              v-model="optionalCheckbox"
+              type="checkbox"
+              id="optionalCheckbox"
+            />
+            <label for="optionalCheckbox">{{ $t("test.accept2") }}</label>
           </div>
         </v-col>
         <v-col v-if="!testStarted" cols="10" class="pa-0">
-          <v-text-field v-model="userEmail" label="Podaj swój adres e-mail" type="email"></v-text-field>
+          <v-text-field
+            v-model="userEmail"
+            :label="$t('test.email_placeholder')"
+            type="email"
+          ></v-text-field>
         </v-col>
         <v-col v-if="!testStarted">
-          <v-btn @click="startTest" :disabled="!isValidEmail || !isTestReady" color="#3AB54A" class="custom-start-button">
-            Rozpocznij test
+          <v-btn
+            @click="startTest"
+            :disabled="!isValidEmail || !isTestReady"
+            color="#3AB54A"
+            class="custom-start-button"
+          >
+            {{ $t("test.begin_test_btn") }}
           </v-btn>
         </v-col>
       </v-row>
 
       <!-- Warunek sprawdzający, czy test został rozpoczęty -->
       <div v-if="testStarted">
-        <v-progress-linear v-if="!test.done" :value="GET_PROGRESS" height="25" reactive rounded background-opacity="0.1"
-          class="mb-3" :style="GET_PROGRESS > 49 && { color: 'white' }">
+        <v-progress-linear
+          v-if="!test.done"
+          :value="GET_PROGRESS"
+          height="25"
+          reactive
+          rounded
+          background-opacity="0.1"
+          class="mb-3"
+          :style="GET_PROGRESS > 49 && { color: 'white' }"
+        >
           {{ GET_PROGRESS }}%
         </v-progress-linear>
         <div v-for="question in GET_CURRENT_QUESTIONS" :key="question.id">
           <h2>{{ question.text }}</h2>
-          <v-radio-group :value="GET_CURRENT_ANSWER(question.id)"
-            @change="answer => SET_ANSWER({ id: question.id, answer })">
-            <v-radio v-for="(choice, i) in question.choices" :key="i" :name="question.id" :value="choice.score"
-              :off-icon="mdiRadioboxBlank" :on-icon="mdiRadioboxMarked" color="secondary" :label="choice.text" />
+          <v-radio-group
+            :value="GET_CURRENT_ANSWER(question.id)"
+            @change="answer => SET_ANSWER({ id: question.id, answer })"
+          >
+            <v-radio
+              v-for="(choice, i) in question.choices"
+              :key="i"
+              :name="question.id"
+              :value="choice.score"
+              :off-icon="mdiRadioboxBlank"
+              :on-icon="mdiRadioboxMarked"
+              color="secondary"
+              :label="choice.text"
+            />
           </v-radio-group>
         </div>
 
         <v-row class="justify-center pt-4">
           <div v-if="!test.done">
-            <v-btn large color="primary" :disabled="BACK_BUTTON_STATE" class="mr-2" @click="PREVIOUS_QUESTIONS">
+            <v-btn
+              large
+              color="primary"
+              :disabled="BACK_BUTTON_STATE"
+              class="mr-2"
+              @click="PREVIOUS_QUESTIONS"
+            >
               {{ $t("test.back") }}
             </v-btn>
 
-            <v-btn large color="primary" :disabled="NEXT_BUTTON_STATE" @click="NEXT_QUESTIONS">
+            <v-btn
+              large
+              color="primary"
+              :disabled="NEXT_BUTTON_STATE"
+              @click="NEXT_QUESTIONS"
+            >
               {{ $t("test.next") }}
             </v-btn>
-            <v-btn v-if="development" large color="primary" class="ml-2" @click="SKIP_QUESTIONS">
+            <v-btn
+              v-if="development"
+              large
+              color="primary"
+              class="ml-2"
+              @click="SKIP_QUESTIONS"
+            >
               dev: skip to end
             </v-btn>
           </div>
@@ -70,8 +116,13 @@
           </div>
 
           <div v-else>
-            <v-btn large color="secondary" :disabled="!isTestCompleted" @click="SUBMIT_TEST">
-              {{ $t('test.seeResults') }}
+            <v-btn
+              large
+              color="secondary"
+              :disabled="!isTestCompleted"
+              @click="SUBMIT_TEST"
+            >
+              {{ $t("test.seeResults") }}
             </v-btn>
           </div>
         </v-row>
@@ -83,7 +134,7 @@
 <style scoped>
 .custom-start-button {
   color: white;
-  background-color: #3AB54A;
+  background-color: #3ab54a;
   padding: 0 23px !important;
   height: 52px !important;
   box-shadow: none !important;
@@ -106,31 +157,31 @@
 </style>
 
 <script>
-import { mdiRadioboxMarked, mdiRadioboxBlank } from '@mdi/js'
-import { mapMutations, mapState, mapGetters, mapActions } from 'vuex'
-import { sleep } from '../lib/helpers'
+import { mdiRadioboxMarked, mdiRadioboxBlank } from "@mdi/js";
+import { mapMutations, mapState, mapGetters, mapActions } from "vuex";
+import { sleep } from "../lib/helpers";
 
 export default {
-  name: 'Test',
+  name: "Test",
   data: () => ({
     mdiRadioboxBlank,
     mdiRadioboxMarked,
-    userEmail: '',
+    userEmail: "",
     testStarted: false,
     optionalCheckbox: false,
-    requiredCheckbox: false,
+    requiredCheckbox: false
   }),
   head: () => ({
-    title: 'The test',
+    title: "The test"
   }),
   computed: {
-    ...mapState(['test', 'development', 'form', 'loading']),
+    ...mapState(["test", "development", "form", "loading"]),
     ...mapGetters([
-      'GET_CURRENT_QUESTIONS',
-      'GET_PROGRESS',
-      'NEXT_BUTTON_STATE',
-      'BACK_BUTTON_STATE',
-      'GET_CURRENT_ANSWER',
+      "GET_CURRENT_QUESTIONS",
+      "GET_PROGRESS",
+      "NEXT_BUTTON_STATE",
+      "BACK_BUTTON_STATE",
+      "GET_CURRENT_ANSWER"
     ]),
     isValidEmail() {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -138,49 +189,63 @@ export default {
     },
     isTestCompleted() {
       const questions = this.GET_CURRENT_QUESTIONS;
-      const answers = questions.map(question => this.GET_CURRENT_ANSWER(question.id));
+      const answers = questions.map(question =>
+        this.GET_CURRENT_ANSWER(question.id)
+      );
       return answers.every(answer => answer !== undefined);
     },
     isTestReady() {
       // Zwraca true tylko wtedy, gdy wymagana opcja jest zaznaczona
       return this.requiredCheckbox;
-    },
+    }
   },
   watch: {
-    requiredCheckbox: function (newVal) {
-      localStorage.setItem('requiredCheckbox', newVal);
+    requiredCheckbox: function(newVal) {
+      localStorage.setItem("requiredCheckbox", newVal);
     },
-    optionalCheckbox: function (newVal) {
-      localStorage.setItem('optionalCheckbox', newVal);
+    optionalCheckbox: function(newVal) {
+      localStorage.setItem("optionalCheckbox", newVal);
     },
-    'test.done': async function (testDone) {
+    "test.done": async function(testDone) {
       if (testDone) {
-        this.$confetti.start({ particlesPerFrame: 0.25, particles: [{ type: 'heart' }] })
-        await sleep(4000)
-        this.$confetti.stop()
+        this.$confetti.start({
+          particlesPerFrame: 0.25,
+          particles: [{ type: "heart" }]
+        });
+        await sleep(4000);
+        this.$confetti.stop();
       }
-    },
+    }
   },
   mounted() {
-    this.onResize()
-    this.$amplitude.getInstance().logEvent('b5.test', { part: 'start' })
+    this.onResize();
+    this.$amplitude.getInstance().logEvent("b5.test", { part: "start" });
   },
   created() {
-    this.SET_INVENTORY()
+    this.SET_INVENTORY();
   },
   methods: {
-    ...mapMutations(['SET_INVENTORY', 'SET_ANSWER', 'NEXT_QUESTIONS', 'PREVIOUS_QUESTIONS', 'SET_ITEMS_PER_PAGE', 'SKIP_QUESTIONS']),
-    ...mapActions(['SUBMIT_TEST']),
+    ...mapMutations([
+      "SET_INVENTORY",
+      "SET_ANSWER",
+      "NEXT_QUESTIONS",
+      "PREVIOUS_QUESTIONS",
+      "SET_ITEMS_PER_PAGE",
+      "SKIP_QUESTIONS"
+    ]),
+    ...mapActions(["SUBMIT_TEST"]),
     onResize() {
-      window.innerWidth < 600 ? this.SET_ITEMS_PER_PAGE(1) : this.SET_ITEMS_PER_PAGE(3)
+      window.innerWidth < 600
+        ? this.SET_ITEMS_PER_PAGE(1)
+        : this.SET_ITEMS_PER_PAGE(3);
     },
     startTest() {
       if (this.isValidEmail && this.isTestReady) {
-        localStorage.setItem('userEmail', this.userEmail);
+        localStorage.setItem("userEmail", this.userEmail);
         this.testStarted = true;
-        this.$amplitude.getInstance().logEvent('b5.test', { part: 'start' });
+        this.$amplitude.getInstance().logEvent("b5.test", { part: "start" });
       }
-    },
-  },
-}
+    }
+  }
+};
 </script>
