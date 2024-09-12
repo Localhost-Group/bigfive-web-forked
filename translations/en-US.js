@@ -1,205 +1,239 @@
 export default {
-  language: 'English',
+  language: "English",
   seo: {
-    keywords: 'big five personality test, big 5 personality test, b5 test, bigfive test, personality traits, bigfive, compare, free, jordan peterson'
+    keywords:
+      "big five personality test, big 5 personality test, b5 test, bigfive test, personality traits, bigfive, compare, free, jordan peterson"
   },
   frontpage: {
     seo: {
-      title: 'Free open-source BigFive personality traits test',
-      description: 'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family.'
+      title: "Free open-source BigFive personality traits test",
+      description:
+        "Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family."
     },
-    title: 'Big Five Personality Test',
-    call_to_action: 'Take the free test now',
-    no_registration: '* No registration required',
-    tests_taken: 'Over 4.000.000 people have taken the test',
+    title: "Big Five Personality Test",
+    call_to_action: "Take the free test now",
+    no_registration: "* No registration required",
+    tests_taken: "Over 4.000.000 people have taken the test",
     compare: {
-      title: 'Compare yourself to others',
-      text1: 'Compare yourself with your partner, colleagues, friends or family.',
-      text2: 'Learn how you differ from other people in the five domains:',
-      action: 'See it live in action'
+      title: "Compare yourself to others",
+      text1:
+        "Compare yourself with your partner, colleagues, friends or family.",
+      text2: "Learn how you differ from other people in the five domains:",
+      action: "See it live in action"
     },
-    share: 'Share with your friends and find out how compatible you are',
+    if_u_have_questions: "If you have questions, write to us ",
+    share: "Share with your friends and find out how compatible you are",
     cards: {
       open: {
-        title: 'Open',
-        text: 'This is an open source project under MIT-license.'
+        title: "Open",
+        text: "This is an open source project under MIT-license."
       },
       free: {
-        title: 'Free',
-        text: 'The test is completely free'
+        title: "Free",
+        text: "The test is completely free"
       },
       scientific: {
-        title: 'Scientific',
-        text: 'BigFive is a scientifically validated and reliable psychological model.'
+        title: "Scientific",
+        text:
+          "BigFive is a scientifically validated and reliable psychological model."
       },
       translated: {
-        title: 'Translated',
-        text: 'Translated to over 20 languages. Help out <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">here</a>!'
+        title: "Translated",
+        text:
+          'Translated to over 20 languages. Help out <a href="https://b5.translations.alheimsins.net/" rel="noreferrer" target="blank">here</a>!'
       }
     },
     description: {
-      top: 'Learn to know yourself better with a free, open-source personality test.',
-      subtop: 'The',
-      subtop2: ' is the most scientifically validated and reliable psychological model to measure personality.',
-      reference: `Tests and evaluation for this site is gathered from
+      first:
+        "Do you want to learn how to collaborate with artificial intelligence?",
+      top:
+        "Take the Big Five test and start your journey into the world of AI, knowing exactly how to adjust the tools to your personality.",
+      subtop: "",
+      subtop2:
+        "is the most reliable and scientifically proven psychological model that describes personality.",
+      reference: `The tests and assessments used on this page come from
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
-inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
-      info: 'The following test contains 120 questions which is estimated to take you about 10 minutes to complete.',
-      result: 'After you have completed the test you will receive a detailed personality report in the following domains:',
-      tests_taken: 'tests taken so far'
+the inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
+      info:
+        "We encourage you to take the Big Five test and discover how you can create a collaboration system with artificial intelligence that perfectly fits your personality!",
+      result:
+        "When you complete the test, you will receive a detailed description of your personality, covering five factors:",
+      tests_taken: "tests taken so far"
     }
   },
   about: {
     seo: {
-      title: 'About and the big five team',
-      description: 'BigFive has a very active and engaged team that is constantly striving to push BigFive forward.'
+      title: "About and the big five team",
+      description:
+        "BigFive has a very active and engaged team that is constantly striving to push BigFive forward."
     }
   },
   toolbar: {
-    home: 'Home',
-    result: 'Result',
-    compare: 'Compare',
-    articles: 'Articles',
-    privacy: 'Privacy',
-    about: 'About',
-    see_results: 'See your results',
-    compare_with: 'Compare with others'
+    home: "Home",
+    result: "Result",
+    compare: "Compare",
+    articles: "Articles",
+    privacy: "Privacy",
+    about: "About",
+    see_results: "See your results",
+    compare_with: "Compare with others",
+    go_to_campus: "Go to CampusAI"
   },
   facets: {
     openness_to_experience: {
-      title: 'Openness to experience'
+      title: "Openness to experience"
     },
     conscientiousness: {
-      title: 'Conscientiousness'
+      title: "Conscientiousness"
     },
     extraversion: {
-      title: 'Extraversion'
+      title: "Extraversion"
     },
     agreeableness: {
-      title: 'Agreeableness'
+      title: "Agreeableness"
     },
     neuroticism: {
-      title: 'Neuroticism'
+      title: "Neuroticism"
     }
   },
   common: {
-    and: 'and',
-    pages: 'pages',
-    languages: 'languages'
+    and: "and",
+    pages: "pages",
+    languages: "languages"
   },
   form: {
-    information: 'Information',
-    informationText: 'We use the information you provide to serve you the',
-    mostAccurate: 'most accurate result possible',
-    readMoreAbout: 'Read more about',
-    privacy: 'privacy',
-    nextButton: 'Okey, next question',
-    declineButton: 'continue without sharing',
-    prefferedLanguage: 'My preferred language is',
-    selectLanguage: 'Select a language',
-    iama: 'I am a',
-    male: 'Male',
-    female: 'Female',
-    age: 'Age',
-    iam: 'I am',
-    yearsOld: 'years old',
-    ageWarning: 'You must be 16 or older',
-    language: 'Language',
-    gender: 'Gender',
-    confirmInfo: 'Confirm information',
-    confirm: 'Confirm',
-    toTestButton: 'Alrighty, take me to the test'
+    information: "Information",
+    informationText: "We use the information you provide to serve you the",
+    mostAccurate: "most accurate result possible",
+    readMoreAbout: "Read more about",
+    privacy: "privacy",
+    nextButton: "Okey, next question",
+    declineButton: "continue without sharing",
+    prefferedLanguage: "My preferred language is",
+    selectLanguage: "Select a language",
+    iama: "I am a",
+    male: "Male",
+    female: "Female",
+    age: "Age",
+    iam: "I am",
+    yearsOld: "years old",
+    ageWarning: "You must be 16 or older",
+    language: "Language",
+    gender: "Gender",
+    confirmInfo: "Confirm information",
+    confirm: "Confirm",
+    toTestButton: "Alrighty, take me to the test"
   },
   test: {
-    next: 'next',
-    back: 'back',
-    more: 'more',
-    seeResults: 'see results'
+    next: "next",
+    back: "back",
+    more: "more",
+    seeResults: "see results",
+    first:
+      "Leave your email address and we will send you additional free materials that will help you make the most of your self-awareness when working with AI.",
+    second:
+      "If you want more, join our rapidly growing community at CampusAI, where through the Me+AI program you can develop your skills and start working with the latest AI technologies within the collaborative generative district framework. You can find more information at ",
+    accept1: "I accept the privacy policy (required)",
+    accept2:
+      "I consent to my data being processed for marketing purposes by CampusAI Prosta Spółka Akcyjna Chmielna 73, 00-801 Warsaw (optional)",
+    email_placeholder: "Enter your email address",
+    begin_test_btn: "Start test",
+    license: 'Test "BIG 5" under open-source license, MIT development',
+    translation1: "Translation, adaptation, personality-AI relation: ",
+    translation2: "(business psychologist)",
+    supervision: "Supervision:",
+    supervision1: "(CBT psychologist and psychotherapist in training)",
+    supervision2: "(sports psychologist)"
   },
   big_five: {
-    title: 'What are the big five?',
+    title: "What are the big five?",
     seo: {
-      title: 'What are the big five?',
-      description: 'Read more about the big five'
+      title: "What are the big five?",
+      description: "Read more about the big five"
     }
   },
   openness_to_experience: {
-    title: 'Openness to Experience',
+    title: "Openness to Experience",
     seo: {
-      title: 'Overview of the domain Openness To Experience.',
-      description: 'Read more about the Openness To Experience domain in the b5 model'
+      title: "Overview of the domain Openness To Experience.",
+      description:
+        "Read more about the Openness To Experience domain in the b5 model"
     }
   },
   conscientiousness: {
-    title: 'Conscientiousness',
+    title: "Conscientiousness",
     seo: {
-      title: 'Overview of the domain Conscientiousness',
-      description: 'Read more about the Conscientiousness domain in the b5 model'
+      title: "Overview of the domain Conscientiousness",
+      description:
+        "Read more about the Conscientiousness domain in the b5 model"
     }
   },
   extraversion: {
-    title: 'Extraversion',
+    title: "Extraversion",
     seo: {
-      title: 'Overview of the domain Extraversion',
-      description: 'Read more about the Extraversion domain in the b5 model'
+      title: "Overview of the domain Extraversion",
+      description: "Read more about the Extraversion domain in the b5 model"
     }
   },
   agreeableness: {
-    title: 'Agreeableness',
+    title: "Agreeableness",
     seo: {
-      title: 'Overview of the domain Agreeableness',
-      description: 'Read more about the agreeableness domain in the b5 model'
+      title: "Overview of the domain Agreeableness",
+      description: "Read more about the agreeableness domain in the b5 model"
     }
   },
   neuroticism: {
-    title: 'Neuroticism',
+    title: "Neuroticism",
     seo: {
-      title: 'Overview of the domain Neuroticism',
-      description: 'Read more about the Neuroticism domain in the b5 model'
+      title: "Overview of the domain Neuroticism",
+      description: "Read more about the Neuroticism domain in the b5 model"
     }
   },
   getCompare: {
-    title: 'Compare people or teams',
-    description1: 'Compare results from the bigfive personality test with multiple people.',
-    description2: 'Type in the ID you got from the test results i.e.',
-    description3: 'in the ID-input field',
-    needToAddPeople: 'You need to add people to compare them',
-    addAnother: 'Add another person',
-    addPerson: 'Add Person',
-    comparePeople: 'compare people',
-    nameOfPerson: 'Name of this person',
-    urlOrId: 'URL or ID for comparison',
-    name: 'Name'
+    title: "Compare people or teams",
+    description1:
+      "Compare results from the bigfive personality test with multiple people.",
+    description2: "Type in the ID you got from the test results i.e.",
+    description3: "in the ID-input field",
+    needToAddPeople: "You need to add people to compare them",
+    addAnother: "Add another person",
+    addPerson: "Add Person",
+    comparePeople: "compare people",
+    nameOfPerson: "Name of this person",
+    urlOrId: "URL or ID for comparison",
+    name: "Name"
   },
   results: {
-    theBigFive: 'The Big Five',
-    score: 'score',
-    important: 'Important!',
-    saveResults: 'Save the following ID to see the results later or ',
-    compare: 'compare',
-    toOthers: 'yourself to others',
+    theBigFive: "The Big Five",
+    score: "score",
+    important: "Important!",
+    saveResults: "Save the following ID to see the results later or ",
+    compare: "compare",
+    toOthers: "yourself to others",
     seo: {
-      title: 'My results from the BigFive personality test',
-      description: 'See my personality and compare yourself in the following five domains: Neuroticism, Openness To Experience, Conscientiousness, Extraversion, Agreeableness'
+      title: "My results from the BigFive personality test",
+      description:
+        "See my personality and compare yourself in the following five domains: Neuroticism, Openness To Experience, Conscientiousness, Extraversion, Agreeableness"
     }
   },
   getResult: {
-    result: 'Result',
-    explanation: 'If you have taken the test and saved your ID, you can see the results here by typing in the ID you got i.e. ',
-    idInput: 'in the ID-input field',
-    urlOrId: 'URL or ID of your result',
-    getResult: 'Get result',
-    viewPrevious: 'View Previous Result'
+    result: "Result",
+    explanation:
+      "If you have taken the test and saved your ID, you can see the results here by typing in the ID you got i.e. ",
+    idInput: "in the ID-input field",
+    urlOrId: "URL or ID of your result",
+    getResult: "Get result",
+    viewPrevious: "View Previous Result"
   },
   shareLinks: {
-    copyLink: 'Copy link to clipboard',
-    shareFacebook: 'Share on Facebook',
-    shareTwitter: 'Share on Twitter',
-    copiedLink: 'Copied link',
-    shareResults: 'Share your results!'
+    copyLink: "Copy link to clipboard",
+    shareFacebook: "Share on Facebook",
+    shareTwitter: "Share on Twitter",
+    copiedLink: "Copied link",
+    shareResults: "Share your results!"
   },
   privacy: {
-    title: 'Privacy Policy',
+    title: "Privacy Policy",
     description: `
     This privacy policy will explain how we use the personal data we collect from you
     when you use our website.
@@ -269,7 +303,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     `
   },
   opennessToExperience: {
-    quote: 'Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.',
+    quote:
+      "Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.",
     text1: `
       <p>
         Openness to Experience describes a dimension of cognitive style that distinguishes imaginative, creative people from down-to-earth, conventional people.
@@ -396,7 +431,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     `
   },
   neuroticismPage: {
-    quote: 'Neuroticism refers to the tendency to experience negative feelings.',
+    quote:
+      "Neuroticism refers to the tendency to experience negative feelings.",
     text1: `
     <p>
       Neuroticism refers to the tendency to experience negative feelings.
@@ -489,7 +525,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     `
   },
   extraversionPage: {
-    quote: 'Extraversion is marked by pronounced engagement with the external world.',
+    quote:
+      "Extraversion is marked by pronounced engagement with the external world.",
     text1: `
       <p>
         Extraversion is marked by pronounced engagement with the external world.
@@ -565,7 +602,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     </p>`
   },
   conscientiousnessPage: {
-    quote: 'Conscientiousness is a tendency to display self-discipline, act dutifully, and strive for achievement against measures or outside expectations. It is related to the way in which people control, regulate, and direct their impulses.',
+    quote:
+      "Conscientiousness is a tendency to display self-discipline, act dutifully, and strive for achievement against measures or outside expectations. It is related to the way in which people control, regulate, and direct their impulses.",
     text1: `
     <p>
       Conscientiousness concerns the way in which we control, regulate, and direct our impulses.
@@ -644,7 +682,8 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     `
   },
   agreeablenessPage: {
-    quote: 'Agreeableness reflects individual differences in concern with cooperation and social harmony.',
+    quote:
+      "Agreeableness reflects individual differences in concern with cooperation and social harmony.",
     text1: `<p>
       Agreeableness reflects individual differences in concern with cooperation and social harmony. Agreeable individuals value getting along with others.
     </p>
@@ -706,4 +745,4 @@ inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     </p>
     `
   }
-}
+};

@@ -47,8 +47,8 @@
       <div class="share-info" style="marginTop: 25px">
         {{ $t('test.license') }} <br>
         {{ $t('test.translation1') }} <strong>Andrzej Tucholski</strong> {{ $t('test.translation2') }}<br>
-        {{ $t('test.supervision') }}: <strong>Paulina Danielak</strong> (psycholożka i psychoterapeutka CBT w trakcie specjalizacji)<br>
-       {{ $t('test.supervision') }}: <strong>Mateusz Brela</strong> (psycholog sportu)<br></p>
+        {{ $t('test.supervision') }} <strong>Paulina Danielak</strong> {{ $t('test.supervision1') }}<br>
+       {{ $t('test.supervision') }} <strong>Mateusz Brela</strong> {{ $t('test.supervision2') }}<br></p>
       </div>
     </div>
     <Error v-else />

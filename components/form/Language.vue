@@ -40,7 +40,7 @@ export default {
   },
   mounted() {
     // Ustawienie języka na polski
-    this.choseLanguage("es");
+    this.choseLanguage("en");
   },
   methods: {
     ...mapMutations(["SET_LANGUAGE", "SET_INVENTORY"]),
