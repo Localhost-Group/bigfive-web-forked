@@ -6,13 +6,13 @@ export default {
   },
   frontpage: {
     seo: {
-      title: "Prueba gratuita y open-source de rasgos de personalidad BigFive",
+      title: "BigFive: test de personalidad gratuito y de código abierto",
       description:
-        "Realiza la prueba de personalidad Big Five, gratuita y open-source. Aprende a conocer tus rasgos de personalidad y compárate con tu pareja, compañeros, amigos o familiares."
+        "Realiza el test de personalidad Big Five gratuito y de código abierto. Descubre tus rasgos de personalidad y compara los resultados con tu pareja, compañeros, amigos y familiares."
     },
     title: "Prueba de personalidad Big Five",
-    call_to_action: "Haz la prueba gratis ahora",
-    no_registration: "*No es necesario registrarse",
+    call_to_action: "Empieza el test gratuito",
+    no_registration: "* No requiere registrarse",
     tests_taken: "Más de 4.000.000 personas han realizado la prueba",
     compare: {
       title: "Compárese con los demás",
@@ -25,17 +25,18 @@ export default {
     share: "Comparte con tus amigos y descubre qué tan compatible eres",
     cards: {
       open: {
-        title: "Open Source",
-        text: "Este es un proyecto de código abierto con licencia MIT."
+        title: "Operador",
+        text:
+          "Puedes realizar este test gracias a CampusAI, que proporciona esta página y comparte conocimientos sobre técnicas efectivas para colaborar con la inteligencia artificial."
       },
       free: {
         title: "Gratis",
         text: "La prueba es completamente gratuita"
       },
       scientific: {
-        title: "Científico",
+        title: "Base científica",
         text:
-          "Big Five es un modelo psicológico confiable y científicamente validado."
+          "Big Five es un modelo científicamente probado, basado en sólidas investigaciones piscológicas, que ofrece una visión fiable de tu personalidad."
       },
       translated: {
         title: "Traducido",
@@ -44,9 +45,9 @@ export default {
       }
     },
     description: {
-      first: "¿Quieres aprender a colaborar con inteligencia artificial?",
+      first: "¿Deseas conocer cómo colaborar con la inteligencia artificial?",
       top:
-        "Realiza el test Big Five y comienza tu viaje hacia el mundo de la IA sabiendo exactamente cómo ajustar las herramientas a tu personalidad.",
+        "Realiza el test Big Five y comienza tu viaje al mundo de la IA conociendo exactamente cómo encajar las herramientas a tu personalidad.",
       subtop: "",
       subtop2:
         "es el modelo psicológico más confiable y científicamente comprobado que describe la personalidad.",
@@ -54,7 +55,7 @@ export default {
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info:
-        "¡Te animamos a realizar el test Big Five y descubrir cómo puedes crear un sistema de colaboración con inteligencia artificial que se ajuste perfectamente a tu personalidad!",
+        "¡Te animamos a realizar el test Big Five y a descubrir cómo puedes contruir un sistema de colaboración con la IA que se adapte a tu personalidad!",
       result:
         "Cuando completes el test, recibirás una descripción detallada de tu personalidad que abarca cinco factores:",
       tests_taken: "pruebas realizadas hasta ahora"
@@ -69,13 +70,13 @@ el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   toolbar: {
     home: "Inicio",
-    result: "Resultado",
-    compare: "Comparar",
+    result: "Resultados",
+    compare: "Compara",
     articles: "Artículos",
     privacy: "Privacidad",
     about: "Acerca de",
-    see_results: "Ver sus resultados",
-    go_to_campus: "Ve a CampusAI",
+    see_results: "Conoce tus resultados",
+    go_to_campus: "Ir a CampusAI",
     compare_with: "Comparar con otros"
   },
   facets: {
@@ -218,11 +219,11 @@ el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   getResult: {
     result: "Resultado",
     explanation:
-      "Si ha realizado la prueba y ha guardado su identificación, puede ver los resultados aquí escribiendo la identificación que obtuvo, es decir, ",
-    idInput: "en el campo de entrada de ID",
-    urlOrId: "URL o ID de su resultado",
-    getResult: "Obtener resultado",
-    viewPrevious: "Ver resultado anterior"
+      "Si ya has realizado el test y guardado tu clave, puedes ver el resultado introduciendo la clave que recibiste",
+    idInput: "en el campo de texto",
+    urlOrId: "URL o clave de tu resultado",
+    getResult: "Obtener resultados",
+    viewPrevious: "Ver resultados anteriores"
   },
   shareLinks: {
     copyLink: "Copiar enlace al portapapeles",
