@@ -6,12 +6,12 @@ export default {
   },
   frontpage: {
     seo: {
-      title: "Free open-source BigFive personality traits test",
+      title: "BigFive: free, open-source personality test",
       description:
-        "Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family."
+        "Take a free, open-source Big Five personality test. Discover your personality traits and compare yourself with your partner, colleagues, friends and family."
     },
     title: "Big Five Personality Test",
-    call_to_action: "Take the free test now",
+    call_to_action: "Start the free test",
     no_registration: "* No registration required",
     tests_taken: "Over 4.000.000 people have taken the test",
     compare: {
@@ -25,17 +25,18 @@ export default {
     share: "Share with your friends and find out how compatible you are",
     cards: {
       open: {
-        title: "Open",
-        text: "This is an open source project under MIT-license."
+        title: "Operator",
+        text:
+          "You can take this test thanks to CampusAI, which provides this site and shares knowledge about effective techniques for collaborating with artificial intelligence."
       },
       free: {
         title: "Free",
         text: "The test is completely free"
       },
       scientific: {
-        title: "Scientific",
+        title: "Scientific Basis",
         text:
-          "BigFive is a scientifically validated and reliable psychological model."
+          "Big Five is a scientifically proven model, based on solid psychological research, offering reliable insight into your personality."
       },
       translated: {
         title: "Translated",
@@ -44,10 +45,9 @@ export default {
       }
     },
     description: {
-      first:
-        "Do you want to learn how to collaborate with artificial intelligence?",
+      first: "Want to learn how to collaborate with artificial intelligence?",
       top:
-        "Take the Big Five test and start your journey into the world of AI, knowing exactly how to adjust the tools to your personality.",
+        "Take the Big Five test and start your journey into the world of AI knowing exactly how to match tools to your personality.",
       subtop: "",
       subtop2:
         "is the most reliable and scientifically proven psychological model that describes personality.",
@@ -55,7 +55,7 @@ export default {
 <a href="http://ipip.ori.org" rel="noopener" target="_blank">ipip.ori.org</a>,
 the inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       info:
-        "We encourage you to take the Big Five test and discover how you can create a collaboration system with artificial intelligence that perfectly fits your personality!",
+        "We encourage you to take the Big Five test and discover how you can build an AI collaboration system that's perfectly tailored to your personality!",
       result:
         "When you complete the test, you will receive a detailed description of your personality, covering five factors:",
       tests_taken: "tests taken so far"
@@ -70,7 +70,7 @@ the inventory is from <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
   },
   toolbar: {
     home: "Home",
-    result: "Result",
+    result: "Results",
     compare: "Compare",
     articles: "Articles",
     privacy: "Privacy",
