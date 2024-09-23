@@ -68,6 +68,9 @@ el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
         "BigFive tiene un equipo muy activo y comprometido que se esfuerza constantemente por impulsar BigFive adelante"
     }
   },
+  compare: {
+    comparision_results: "Resultados de la comparación"
+  },
   toolbar: {
     home: "Inicio",
     result: "Resultados",
