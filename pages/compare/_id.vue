@@ -24,10 +24,12 @@ export default {
   name: "CompareResult",
   async asyncData({ params, store, $axios }) {
     try {
-      // const result = await $axios.$get('https://bigfive4ai.campusai.pl/api/' + 'compare/' + params.id)
       const result = await $axios.$get(
-        "http://localhost:4000/api/" + "compare/" + params.id
+        "https://bigfive4ai.campusai.pl/api/" + "compare/" + params.id
       );
+      // const result = await $axios.$get(
+      //   "http://localhost:4000/api/" + "compare/" + params.id
+      // );
       return { result };
     } catch (error) {
       store.commit("SET_SNACKBAR", { msg: error.message, type: "error" });
