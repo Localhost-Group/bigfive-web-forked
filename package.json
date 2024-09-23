@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@aceforth/nuxt-optimized-images": "1.4.0",
-    "@szegerege12/b5-johnson-120-ipip-neo-pi-r-pl": "^6.0.8",
+    "@szegerege12/b5-johnson-120-ipip-neo-pi-r-pl": "^6.0.9",
     "@nuxt/content": "1.13.1",
     "@nuxtjs/axios": "5.13.1",
     "@nuxtjs/pwa": "3.3.5",
