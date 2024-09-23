@@ -218,8 +218,6 @@ export const actions = {
         timeElapsed: elapsedTimeInSeconds(context.state.test.testStart),
         dateStamp: Date.now()
       };
-
-      console.log("re", result.lang);
       // const { id } = await this.$axios.$post('http://localhost:4000/api/' + 'save', result)
 
       const { id } = await this.$axios.$post(
