@@ -1661,10 +1661,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@szegerege12/b5-johnson-120-ipip-neo-pi-r-pl@^6.0.7":
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/@szegerege12/b5-johnson-120-ipip-neo-pi-r-pl/-/b5-johnson-120-ipip-neo-pi-r-pl-6.0.7.tgz#c5b13f5bd071611c2555de002994df777d32da57"
-  integrity sha512-XuaUnDReAl9O7Wn47953xqJDCIxBe1qZZFttmhUCBCtaveUQDgS2jUgY0c7IQaqOpj86WsGEsO0YvEGScuKz6Q==
+"@szegerege12/b5-johnson-120-ipip-neo-pi-r-pl@^6.0.9":
+  version "6.0.9"
+  resolved "https://registry.yarnpkg.com/@szegerege12/b5-johnson-120-ipip-neo-pi-r-pl/-/b5-johnson-120-ipip-neo-pi-r-pl-6.0.9.tgz#df5bf83903c9d1f0e6c1f2bafd60db32b052bd38"
+  integrity sha512-wOe0UkDfvovcw512TPlXEfZrJ2tVC8Rh9TO+Y4qnv4wJ25L0EgtZdhTwroDqukFXrEZY/9VQerQAVNJ71aEn8g==
   dependencies:
     knuth-shuffle "1.0.8"
 
