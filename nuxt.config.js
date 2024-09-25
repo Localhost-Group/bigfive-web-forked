@@ -140,7 +140,7 @@ export default {
         seo: true,
         baseUrl: "https://b5.glows.my",
         defaultLocale: "es",
-        strategy: "prefix_except_default",
+        strategy: "no_prefix",
         lazy: true,
         langDir: "translations/",
         detectBrowserLanguage: {
