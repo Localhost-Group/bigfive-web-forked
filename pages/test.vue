@@ -6,7 +6,7 @@
         <p v-if="!testStarted">{{ $t("test.first") }}</p>
         <p v-if="!testStarted">
           {{ $t("test.second") }}
-          <a href="www.campusai.pl" target="_blank">www.campusai.pl</a>
+          <a href="https://www.campusai.pl" target="_blank">www.campusai.pl</a>
         </p>
         <v-col cols="12" v-if="!testStarted">
           <div class="my-input">
