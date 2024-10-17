@@ -22,8 +22,8 @@
       </v-col>
       <v-col class="footer-text" cols="12">
         © {{ new Date().getFullYear() }} —
-        <a href="https://www.campus.ai/uk/" target="_blank">CampusAI.ai</a>,
-        under the
+        <a href="https://www.campus.ai/uk/" target="_blank">Campus.ai</a>, under
+        the
         <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank"
           >MIT license</a
         >. Credits to
