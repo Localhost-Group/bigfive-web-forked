@@ -138,7 +138,7 @@ el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
       "Si quieres más, únete a nuestra comunidad en rápido crecimiento en CampusAI, donde a través del programa Me+AI puedes desarrollar tus habilidades y empezar a trabajar con las últimas tecnologías de IA en el marco del distrito generativo colaborativo. Puedes encontrar más información en ",
     accept1: "Acepto la política de privacidad (requerido)",
     accept2:
-      "Doy mi consentimiento para que mis datos sean procesados con fines de marketing por CampusAI Prosta Spółka Akcyjna Chmielna 73, 00-801 Varsovia (opcional)",
+      "Doy mi consentimiento para que mis datos sean procesados con fines de marketing por CampusAI Holding LLC, 16192 Coastal Hwy, 19958 Lewes (opcional)",
     email_placeholder: "Introduce tu dirección de correo electrónico",
     begin_test_btn: "Comenzar prueba",
     license: 'Test "BIG 5" con licencia de código abierto, desarrollo MIT',

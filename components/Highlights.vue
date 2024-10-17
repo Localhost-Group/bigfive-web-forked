@@ -21,7 +21,7 @@
       <v-col class="text-center">
         <p class="msg-us">
           {{ $t("frontpage.if_u_have_questions") }}
-          <a href="mailto:info@campusai.pl">info@campusai.pl</a>
+          <a href="mailto:info@campus.ai">info@campus.ai</a>
         </p>
       </v-col>
     </v-row>

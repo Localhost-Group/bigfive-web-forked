@@ -6,7 +6,7 @@
         <p v-if="!testStarted">{{ $t("test.first") }}</p>
         <p v-if="!testStarted">
           {{ $t("test.second") }}
-          <a href="www.campusai.pl" target="_blank">www.campusai.pl</a>
+          <a href="https://www.campus.ai/es/" target="_blank">campusai.ai</a>
         </p>
         <v-col cols="12" v-if="!testStarted">
           <div class="my-input">
@@ -15,7 +15,13 @@
               type="checkbox"
               id="requiredCheckbox"
             />
-            <label for="requiredCheckbox">{{ $t("test.accept1") }}</label>
+            <label for="requiredCheckbox">
+              Acepto la
+              <a href="https://es.campus.ai/privacy" target="_blank"
+                >política de privacidad</a
+              >
+              (requerido)
+            </label>
           </div>
         </v-col>
         <v-col cols="12" v-if="!testStarted">

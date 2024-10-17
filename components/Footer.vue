@@ -20,9 +20,14 @@
         96000 Sibu, Sarawak, Malaysia<br><br>
         <a href="mailto:wg@glows.my">wg@glows.my</a><br> -->
       </v-col>
-      <v-col class="footer-text" cols="12"> © {{ new Date().getFullYear() }} — <a href="http://www.campusai.pl"
-          target="_blank">CampusAI.pl</a>, under the <a href="https://en.wikipedia.org/wiki/MIT_License"
-          target="_blank">MIT license</a>. Credits to <a href="https://github.com/rubynor" target="_blank">Rubynor AS</a>
+      <v-col class="footer-text" cols="12">
+        © {{ new Date().getFullYear() }} —
+        <a href="https://www.campus.ai/es/" target="_blank">Campus.ai</a>, under
+        the
+        <a href="https://en.wikipedia.org/wiki/MIT_License" target="_blank"
+          >MIT license</a
+        >. Credits to
+        <a href="https://github.com/rubynor" target="_blank">Rubynor AS</a>
         <!-- © {{ new Date().getFullYear() }} — Campus AI.
         Strona korzysta z projektu BigFive stworzonego przez <a href="https://github.com/rubynor"
           target="_blank">rubynor</a> -->
@@ -32,10 +37,10 @@
 </template>
 
 <script>
-import { mdiFacebook, mdiTwitter, mdiGithub, mdiLinkedin } from '@mdi/js'
+import { mdiFacebook, mdiTwitter, mdiGithub, mdiLinkedin } from "@mdi/js";
 
 export default {
-  name: 'Footer',
+  name: "Footer",
   data: () => ({
     mdiFacebook,
     mdiTwitter,
@@ -44,11 +49,11 @@ export default {
   }),
   methods: {
     logClick(choice) {
-      console.log(choice)
-      this.$amplitude.getInstance().logEvent(`goes to ${choice}`, {})
+      console.log(choice);
+      this.$amplitude.getInstance().logEvent(`goes to ${choice}`, {});
     }
   }
-}
+};
 </script>
 
 <style scoped>
@@ -61,18 +66,18 @@ export default {
 }
 
 .footer-heading {
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
   font-size: 4rem;
   color: #4c4f5a;
   line-height: 3.5rem;
 }
 
 .footer-about {
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .footer-text {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   color: #b3b3b3;
   text-align: center;
 }
@@ -98,7 +103,7 @@ export default {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border: none;
   border-radius: 15px;
   box-shadow: none;
