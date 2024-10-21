@@ -207,12 +207,12 @@ el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     name: "Nombre"
   },
   results: {
-    theBigFive: "Los Big Five",
+    theBigFive: "Resultados Big Five",
     score: "Puntuación",
-    important: "Importante!",
-    saveResults: "Guarde la siguiente ID para ver los resultados más tarde o ",
-    compare: "comparar",
-    toOthers: "usted mismo a los demás",
+    important: "¡Importante!",
+    saveResults: "Guarda el siguiente ID para ver los resultados más tarde o ",
+    compare: "compararte",
+    toOthers: "con los demás",
     seo: {
       title: "Mis resultados de la prueba de personalidad Big Five",
       description:
@@ -233,7 +233,7 @@ el inventario es de <i>Johnson's (2014) 120-item IPIP NEO-PI-R</i>.`,
     shareFacebook: "Compartir en Facebook",
     shareTwitter: "Compartir en Twitter",
     copiedLink: "Enlace copiado",
-    shareResults: "Comparte tus resultados!"
+    shareResults: "¡Comparte tus resultados!"
   },
   privacy: {
     title: "Privacy Policy",
